@@ -1,21 +1,10 @@
 $ErrorActionPreference = "Stop"
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$candidateDataDirs = @(
-  (Join-Path $repoRoot "data"),
-  (Join-Path (Split-Path -Parent $repoRoot) "data")
-)
+$dataDir = Join-Path $repoRoot "data"
 
-$dataDir = $null
-foreach ($candidate in $candidateDataDirs) {
-  if (Test-Path (Join-Path $candidate "manifest.json")) {
-    $dataDir = $candidate
-    break
-  }
-}
-
-if (-not $dataDir) {
-  throw "Could not find data/manifest.json. Checked: $($candidateDataDirs -join ', ')"
+if (-not (Test-Path (Join-Path $dataDir "manifest.json"))) {
+  throw "Could not find docs/data/manifest.json."
 }
 
 $manifestPath = Join-Path $dataDir "manifest.json"

@@ -1,13 +1,9 @@
 const RELATIVE_MANIFEST_JSON_CANDIDATES = [
-  "../data/manifest.json",
   "data/manifest.json",
-  "/data/manifest.json",
 ];
 
 const RELATIVE_MANIFEST_JS_CANDIDATES = [
-  "../data/manifest.js",
   "data/manifest.js",
-  "/data/manifest.js",
 ];
 
 const dom = {

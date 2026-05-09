@@ -1,0 +1,26 @@
+{
+  "original": {
+    "is_looped": true,
+    "loop_type": "forward",
+    "loop_type_value": 1,
+    "repeat_point": 8084,
+    "repeat_len": 10112,
+    "repeat_end": 18196,
+    "raw_length": 18196,
+    "shifted_length": 9098,
+    "shifted_repeat_point": 4042.0,
+    "shifted_repeat_end": 9098.0
+  },
+  "reconstruction": {
+    "is_looped": true,
+    "loop_type": "forward",
+    "loop_type_value": 1,
+    "repeat_point": 8084,
+    "repeat_len": 10112,
+    "repeat_end": 18196,
+    "raw_length": 18196,
+    "shifted_length": 9098,
+    "shifted_repeat_point": 4042.0,
+    "shifted_repeat_end": 9098.0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "original": {
+    "is_looped": true,
+    "loop_type": "pingpong",
+    "loop_type_value": 2,
+    "repeat_point": 13747,
+    "repeat_len": 24789,
+    "repeat_end": 38536,
+    "raw_length": 38608,
+    "shifted_length": 19304,
+    "shifted_repeat_point": 6873.5,
+    "shifted_repeat_end": 19268.0
+  },
+  "reconstruction": {
+    "is_looped": true,
+    "loop_type": "pingpong",
+    "loop_type_value": 2,
+    "repeat_point": 13747,
+    "repeat_len": 24789,
+    "repeat_end": 38536,
+    "raw_length": 38608,
+    "shifted_length": 19304,
+    "shifted_repeat_point": 6873.5,
+    "shifted_repeat_end": 19268.0
+  }
+}

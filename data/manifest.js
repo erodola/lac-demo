@@ -1,0 +1,2791 @@
+window.LAC_MANIFEST = {
+    "meta":  {
+                 "project":  "Communicating Sound Through Natural Language",
+                 "page_title":  "LAC Demo Page",
+                 "updated":  "2026-05-07",
+                 "notes":  "Songs and samples refreshed from folder contents; looped rule encoded in manifest.",
+                 "asset_version":  "20260507082209358"
+             },
+    "sections":  [
+                     {
+                         "id":  "entire-songs",
+                         "nav_label":  "Entire songs",
+                         "title":  "Original vs Reconstruction of Entire Songs",
+                         "description":  "Entire song reconstructions, using LAC for the acoustic (samples/instruments) encoding and decoding, and tracker data for the symbolic part.",
+                         "examples":  [
+                                          {
+                                              "id":  "song_01",
+                                              "title":  "Song 01",
+                                              "subtitle":  "Skuter - Loneliness",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/songs/song_01/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/songs/song_01/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "tags":  [
+                                                           "tracker",
+                                                           "song"
+                                                       ],
+                                              "artist":  "Skuter",
+                                              "song_name":  "Loneliness",
+                                              "direct_download":  "https://amp.dascene.net/modules/S/Skuter/XM..%20loneliness.gz"
+                                          },
+                                          {
+                                              "id":  "song_02",
+                                              "title":  "Song 02",
+                                              "subtitle":  "Falcon - Poliamber",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/songs/song_02/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/songs/song_02/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "tags":  [
+                                                           "tracker",
+                                                           "song"
+                                                       ],
+                                              "artist":  "Falcon",
+                                              "song_name":  "Poliamber",
+                                              "direct_download":  "https://amp.dascene.net/modules/F/Falcon%28PL%29/XM.poliamber_.gz"
+                                          },
+                                          {
+                                              "id":  "song_03",
+                                              "title":  "Song 03",
+                                              "subtitle":  "Juzdie - Lumi",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/songs/song_03/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/songs/song_03/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "tags":  [
+                                                           "tracker",
+                                                           "song"
+                                                       ],
+                                              "artist":  "Juzdie",
+                                              "song_name":  "Lumi",
+                                              "direct_download":  "https://amp.dascene.net/modules/J/Juzdie/XM.lumi.gz"
+                                          },
+                                          {
+                                              "id":  "song_04",
+                                              "title":  "Song 04",
+                                              "subtitle":  "Makunouchi Bento - Morninfizik",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/songs/song_04/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/songs/song_04/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "tags":  [
+                                                           "tracker",
+                                                           "song"
+                                                       ],
+                                              "artist":  "Makunouchi Bento",
+                                              "song_name":  "Morninfizik",
+                                              "direct_download":  "https://amp.dascene.net/modules/N/Nagz/XM.%20%20%20%20%20%20%20%20%20morninfizik.gz"
+                                          },
+                                          {
+                                              "id":  "song_05",
+                                              "title":  "Song 05",
+                                              "subtitle":  "Nagz - Dream biscuits",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/songs/song_05/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/songs/song_05/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "tags":  [
+                                                           "tracker",
+                                                           "song"
+                                                       ],
+                                              "artist":  "Nagz",
+                                              "song_name":  "Dream biscuits",
+                                              "direct_download":  "https://amp.dascene.net/modules/N/Nagz/XM.%20%20%20%20%20%20dream.biscuits.gz"
+                                          },
+                                          {
+                                              "id":  "song_06",
+                                              "title":  "Song 06",
+                                              "subtitle":  "Nagz - Last",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/songs/song_06/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/songs/song_06/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "tags":  [
+                                                           "tracker",
+                                                           "song"
+                                                       ],
+                                              "artist":  "Nagz",
+                                              "song_name":  "Last",
+                                              "direct_download":  "https://files.scene.org/view/mirrors/flerp/.s/Artists/music/Nagz/NGZ-LAST.ZIP"
+                                          },
+                                          {
+                                              "id":  "song_07",
+                                              "title":  "Song 07",
+                                              "subtitle":  "Praecor - Sorry",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/songs/song_07/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/songs/song_07/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "tags":  [
+                                                           "tracker",
+                                                           "song"
+                                                       ],
+                                              "artist":  "Praecor",
+                                              "song_name":  "Sorry",
+                                              "direct_download":  "https://amp.dascene.net/modules/P/Praecor/XM.sorry%20%3B%28.gz"
+                                          },
+                                          {
+                                              "id":  "song_08",
+                                              "title":  "Song 08",
+                                              "subtitle":  "Radix - TpolmGirl",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/songs/song_08/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/songs/song_08/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "tags":  [
+                                                           "tracker",
+                                                           "song"
+                                                       ],
+                                              "artist":  "Radix",
+                                              "song_name":  "TpolmGirl",
+                                              "direct_download":  "https://amp.dascene.net/modules/R/Radix/XM.tpolmgirl.gz"
+                                          },
+                                          {
+                                              "id":  "song_09",
+                                              "title":  "Song 09",
+                                              "subtitle":  "Radix \u0026 Loonie - Kookoo",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/songs/song_09/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/songs/song_09/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "tags":  [
+                                                           "tracker",
+                                                           "song"
+                                                       ],
+                                              "artist":  "Radix \u0026 Loonie",
+                                              "song_name":  "Kookoo",
+                                              "direct_download":  "https://amp.dascene.net/modules/R/Radix/XM.kookoo.gz"
+                                          },
+                                          {
+                                              "id":  "song_10",
+                                              "title":  "Song 10",
+                                              "subtitle":  "Twist - On a 707-Jazztrip",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/songs/song_10/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/songs/song_10/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "tags":  [
+                                                           "tracker",
+                                                           "song"
+                                                       ],
+                                              "artist":  "Twist",
+                                              "song_name":  "On a 707-Jazztrip",
+                                              "direct_download":  "https://amp.dascene.net/modules/T/Twister%28NL%29/XM.ON%20A%20707-JAZZTRIP.gz"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "samples-instruments",
+                         "nav_label":  "Samples/instruments",
+                         "title":  "Original vs Reconstruction of Samples / Instruments",
+                         "description":  "Isolated timbral units (short samples, instrument hits, plucks, bursts). We report the entire sample sets (hence, no cherry picking) used in the songs:\n\n- Skuter - [\"Loneliness\"](https://amp.dascene.net/modules/S/Skuter/XM..%20loneliness.gz)\n- Radix - [\"TpolmGirl\"](https://amp.dascene.net/modules/R/Radix/XM.tpolmgirl.gz)\n- Twist - [\"On a 707 Jazztrip\"](https://amp.dascene.net/modules/T/Twister%28NL%29/XM.ON%20A%20707-JAZZTRIP.gz)\n- Nagz - [\"99 little windows\"](https://amp.dascene.net/modules/N/Nagz/XM.%20%20%2099.little.windows.gz)\n- Makunouchi Bento - [\"Morninfizik\"](https://amp.dascene.net/modules/N/Nagz/XM.%20%20%20%20%20%20%20%20%20morninfizik.gz)\n- Falcon - [\"Poliamber\"](https://amp.dascene.net/modules/F/Falcon%28PL%29/XM.poliamber_.gz)\n- Hunz - [\"Skylight\"](https://amp.dascene.net/modules/H/Hunz/XM.skylight.gz)\n- Jogeir Liljedahl - [\"Celtic Waves\"](https://amp.dascene.net/modules/J/Jogeir/XM.Celtic%20waves....gz)\n\nFor samples marked **[looped]** (for example, single waveform periods), playback is looped to make the sound audible; a single period alone would not be audible. In looped playback, samples are rendered exactly as intended by the original author, using the module\u0027s symbolic information (including envelopes, panning, and related controls). Vertical red bars indicate the start and end of the loop.",
+                         "examples":  [
+                                          {
+                                              "id":  "sample_01",
+                                              "title":  "Sample 01",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries mid-power, punchy, and extreme-oscillation; through sustain and release, the trace returns swift-onset and aggressive. the onset lane shows evenly-distributed, clipped, and sizzling; the mid-body drift and tail channel answer with noise-heavy and open-ceiling. in spectral cross-section, the chamber resolves drifting, flat-topped, and chaotic; the reflected layer reappears as even-contour and unpitched. initial pressure exposes faint rumble, faint thump, and faint boom; after propagation through the core, the return field carries faint boxiness and faint honk. at entry the envelope carries faint quack, present clang, and faint punch; through sustain and release, the trace returns faint bite and faint twang. the onset lane shows faint ring, present tang, and faint edge; the mid-body drift and tail channel answer with present chime and faint zing. in spectral cross-section, the chamber resolves present crackle, faint sibilance, and present fizz; the reflected layer reappears as present sheen and present sparkle. initial pressure exposes present glint, strong air, and strong vapor; after propagation through the core, the return field carries strong ether, cutting, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_01/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_01/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_01/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_01/looped.json",
+                                              "plot_image":  "data/samples/sample_01/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_02",
+                                              "title":  "Sample 02",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks mid-power, punchy, and high-oscillation; the follow-through corridor then stabilizes around gradual-onset and feathered. from the leading edge onward, the meter catches front-weighted, clipped, and brilliant; downstream, the residue writes semi-tonal and high-ceiling. the profile opens with surging, gentle-peak, and diffuse; once recirculated through the line, it lands at rippled and unpitched. the first pass reports present rumble, strong thump, and strong boom; deeper in the frame, the contour settles into strong boxiness and dominant honk. diagnostic playback marks strong quack, strong clang, and strong punch; the follow-through corridor then stabilizes around strong bite and strong twang. from the leading edge onward, the meter catches strong ring, strong tang, and strong edge; downstream, the residue writes strong chime and strong zing. the profile opens with strong crackle, strong sibilance, and strong fizz; once recirculated through the line, it lands at strong sheen and strong sparkle. the first pass reports strong glint, strong air, and strong vapor; deeper in the frame, the contour settles into strong ether, mellow, and sleek.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_02/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_02/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_02/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_02/looped.json",
+                                              "plot_image":  "data/samples/sample_02/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_03",
+                                              "title":  "Sample 03",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the onset lane shows mid-power, rounded, and high-oscillation; the mid-body drift and tail channel answer with moderate-onset and feathered. in spectral cross-section, the chamber resolves evenly-distributed, non-decaying, and brilliant; the reflected layer reappears as semi-tonal and low-ceiling. initial pressure exposes volatile, flat-topped, and semi-diffuse; after propagation through the core, the return field carries rippled and unpitched. at entry the envelope carries dominant rumble, dominant thump, and strong boom; through sustain and release, the trace returns strong boxiness and present honk. the onset lane shows present quack, present clang, and present punch; the mid-body drift and tail channel answer with faint bite and faint twang. in spectral cross-section, the chamber resolves faint ring, faint tang, and faint edge; the reflected layer reappears as faint chime and faint zing. initial pressure exposes faint crackle, faint sibilance, and faint fizz; after propagation through the core, the return field carries present sheen and present sparkle. at entry the envelope carries present glint, present air, and strong vapor; through sustain and release, the trace returns strong ether, keen, and sleek.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_03/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_03/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_03/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_03/looped.json",
+                                              "plot_image":  "data/samples/sample_03/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_04",
+                                              "title":  "Sample 04",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "from the leading edge onward, the meter catches mid-power, sustained, and mid-oscillation; downstream, the residue writes snap-onset and aggressive. the profile opens with evenly-distributed, clipped, and bright; once recirculated through the line, it lands at near-tonal and low-ceiling. the first pass reports frozen, gentle-peak, and semi-diffuse; deeper in the frame, the contour settles into glass-smooth and unpitched. diagnostic playback marks faint rumble, present thump, and present boom; the follow-through corridor then stabilizes around present boxiness and present honk. from the leading edge onward, the meter catches present quack, present clang, and present punch; downstream, the residue writes present bite and faint twang. the profile opens with faint ring, faint tang, and faint edge; once recirculated through the line, it lands at faint chime and faint zing. the first pass reports trace crackle, faint sibilance, and trace fizz; deeper in the frame, the contour settles into trace sheen and trace sparkle. diagnostic playback marks trace glint, trace air, and trace vapor; the follow-through corridor then stabilizes around trace ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_04/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_04/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_04/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_04/looped.json",
+                                              "plot_image":  "data/samples/sample_04/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_05",
+                                              "title":  "Sample 05",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "in spectral cross-section, the chamber resolves thunderous, sustained, and mid-oscillation; the reflected layer reappears as swift-onset and aggressive. initial pressure exposes evenly-distributed, clipped, and warm; after propagation through the core, the return field carries pure-tone and low-ceiling. at entry the envelope carries frozen, concentrated, and semi-diffuse; through sustain and release, the trace returns glass-smooth and unpitched. the onset lane shows present rumble, strong thump, and strong boom; the mid-body drift and tail channel answer with strong boxiness and strong honk. in spectral cross-section, the chamber resolves strong quack, present clang, and present punch; the reflected layer reappears as present bite and faint twang. initial pressure exposes faint ring, faint tang, and faint edge; after propagation through the core, the return field carries faint chime and faint zing. at entry the envelope carries faint crackle, faint sibilance, and trace fizz; through sustain and release, the trace returns trace sheen and trace sparkle. the onset lane shows trace glint, trace air, and trace vapor; the mid-body drift and tail channel answer with trace ether, dull, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_05/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_05/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_05/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_05/looped.json",
+                                              "plot_image":  "data/samples/sample_05/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_06",
+                                              "title":  "Sample 06",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the profile opens with mid-power, sustained, and mid-oscillation; once recirculated through the line, it lands at snap-onset and aggressive. the first pass reports evenly-distributed, clipped, and bright; deeper in the frame, the contour settles into semi-tonal and low-ceiling. diagnostic playback marks frozen, gentle-peak, and diffuse; the follow-through corridor then stabilizes around glass-smooth and unpitched. from the leading edge onward, the meter catches present rumble, present thump, and present boom; downstream, the residue writes faint boxiness and present honk. the profile opens with present quack, present clang, and present punch; once recirculated through the line, it lands at present bite and faint twang. the first pass reports present ring, faint tang, and faint edge; deeper in the frame, the contour settles into faint chime and faint zing. diagnostic playback marks faint crackle, faint sibilance, and faint fizz; the follow-through corridor then stabilizes around faint sheen and faint sparkle. from the leading edge onward, the meter catches faint glint, faint air, and faint vapor; downstream, the residue writes faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_06/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_06/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_06/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_06/looped.json",
+                                              "plot_image":  "data/samples/sample_06/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_07",
+                                              "title":  "Sample 07",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "initial pressure exposes mid-power, sustained, and mid-oscillation; after propagation through the core, the return field carries snap-onset and aggressive. at entry the envelope carries evenly-distributed, clipped, and bright; through sustain and release, the trace returns semi-tonal and low-ceiling. the onset lane shows frozen, gentle-peak, and diffuse; the mid-body drift and tail channel answer with glass-smooth and unpitched. in spectral cross-section, the chamber resolves faint rumble, present thump, and present boom; the reflected layer reappears as present boxiness and present honk. initial pressure exposes present quack, present clang, and present punch; after propagation through the core, the return field carries present bite and present twang. at entry the envelope carries faint ring, faint tang, and faint edge; through sustain and release, the trace returns faint chime and faint zing. the onset lane shows faint crackle, faint sibilance, and faint fizz; the mid-body drift and tail channel answer with faint sheen and faint sparkle. in spectral cross-section, the chamber resolves faint glint, faint air, and faint vapor; the reflected layer reappears as faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_07/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_07/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_07/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_07/looped.json",
+                                              "plot_image":  "data/samples/sample_07/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_08",
+                                              "title":  "Sample 08",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the first pass reports mid-power, rounded, and high-oscillation; deeper in the frame, the contour settles into creeping-onset and feathered. diagnostic playback marks front-weighted, clipped, and brilliant; the follow-through corridor then stabilizes around semi-tonal and mid-ceiling. from the leading edge onward, the meter catches surging, flat-topped, and ordered; downstream, the residue writes serrated and aloft li shadow. the profile opens with pristine, finely-tuned, and dominant-fundamental; once recirculated through the line, it lands at hollow-body and sparse-overtones. the first pass reports fundamentals-only, present rumble, and faint thump; deeper in the frame, the contour settles into faint boom and faint boxiness. diagnostic playback marks faint honk, faint quack, and faint clang; the follow-through corridor then stabilizes around present punch and present bite. from the leading edge onward, the meter catches dominant twang, present ring, and present tang; downstream, the residue writes present edge and present chime. the profile opens with strong zing, faint crackle, and strong sibilance; once recirculated through the line, it lands at faint fizz and strong sheen. the first pass reports strong sparkle, strong glint, and strong air; deeper in the frame, the contour settles into present vapor and present ether. diagnostic playback marks keen and abrasive; the follow-through corridor then stabilizes around keen and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_08/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_08/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_08/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_08/looped.json",
+                                              "plot_image":  "data/samples/sample_08/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_09",
+                                              "title":  "Sample 09",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries mid-power, rounded, and mid-oscillation; through sustain and release, the trace returns moderate-onset and measured. the onset lane shows evenly-distributed, clipped, and bright; the mid-body drift and tail channel answer with near-tonal and low-ceiling. in spectral cross-section, the chamber resolves frozen, gentle-peak, and semi-diffuse; the reflected layer reappears as even-contour and unpitched. initial pressure exposes present rumble, strong thump, and strong boom; after propagation through the core, the return field carries strong boxiness and strong honk. at entry the envelope carries present quack, strong clang, and present punch; through sustain and release, the trace returns present bite and faint twang. the onset lane shows present ring, present tang, and present edge; the mid-body drift and tail channel answer with present chime and present zing. in spectral cross-section, the chamber resolves present crackle, faint sibilance, and present fizz; the reflected layer reappears as faint sheen and faint sparkle. initial pressure exposes faint glint, faint air, and faint vapor; after propagation through the core, the return field carries faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_09/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_09/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_09/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_09/looped.json",
+                                              "plot_image":  "data/samples/sample_09/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_10",
+                                              "title":  "Sample 10",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks forceful, rounded, and mid-oscillation; the follow-through corridor then stabilizes around moderate-onset and feathered. from the leading edge onward, the meter catches evenly-distributed, clipped, and bright; downstream, the residue writes near-tonal and low-ceiling. the profile opens with frozen, gentle-peak, and semi-diffuse; once recirculated through the line, it lands at even-contour and unpitched. the first pass reports present rumble, present thump, and strong boom; deeper in the frame, the contour settles into strong boxiness and strong honk. diagnostic playback marks strong quack, present clang, and strong punch; the follow-through corridor then stabilizes around present bite and present twang. from the leading edge onward, the meter catches present ring, present tang, and present edge; downstream, the residue writes present chime and present zing. the profile opens with present crackle, faint sibilance, and present fizz; once recirculated through the line, it lands at faint sheen and faint sparkle. the first pass reports faint glint, faint air, and faint vapor; deeper in the frame, the contour settles into faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_10/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_10/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_10/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_10/looped.json",
+                                              "plot_image":  "data/samples/sample_10/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_11",
+                                              "title":  "Sample 11",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the onset lane shows forceful, rounded, and mid-oscillation; the mid-body drift and tail channel answer with moderate-onset and measured. in spectral cross-section, the chamber resolves evenly-distributed, clipped, and warm; the reflected layer reappears as pure-tone and low-ceiling. initial pressure exposes volatile, gentle-peak, and ordered; after propagation through the core, the return field carries rippled and middle ti shadow. at entry the envelope carries hazy, finely-tuned, and dominant-fundamental; through sustain and release, the trace returns thin-body and sparse-overtones. the onset lane shows fundamentals-only, present rumble, and strong thump; the mid-body drift and tail channel answer with dominant boom and dominant boxiness. in spectral cross-section, the chamber resolves present honk, present quack, and present clang; the reflected layer reappears as present punch and present bite. initial pressure exposes present twang, present ring, and present tang; after propagation through the core, the return field carries present edge and present chime. at entry the envelope carries present zing, present crackle, and present sibilance; through sustain and release, the trace returns present fizz and faint sheen. the onset lane shows faint sparkle, faint glint, and faint air; the mid-body drift and tail channel answer with faint vapor and faint ether. in spectral cross-section, the chamber resolves dull and sleek; the reflected layer reappears as dull and sleek.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_11/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_11/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_11/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_11/looped.json",
+                                              "plot_image":  "data/samples/sample_11/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_12",
+                                              "title":  "Sample 12",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "from the leading edge onward, the meter catches forceful, rounded, and mid-oscillation; downstream, the residue writes moderate-onset and measured. the profile opens with evenly-distributed, clipped, and warm; once recirculated through the line, it lands at pure-tone and low-ceiling. the first pass reports frozen, gentle-peak, and semi-diffuse; deeper in the frame, the contour settles into even-contour and unpitched. diagnostic playback marks present rumble, present thump, and present boom; the follow-through corridor then stabilizes around strong boxiness and dominant honk. from the leading edge onward, the meter catches strong quack, present clang, and present punch; downstream, the residue writes faint bite and present twang. the profile opens with present ring, present tang, and present edge; once recirculated through the line, it lands at present chime and present zing. the first pass reports present crackle, present sibilance, and present fizz; deeper in the frame, the contour settles into present sheen and faint sparkle. diagnostic playback marks faint glint, trace air, and trace vapor; the follow-through corridor then stabilizes around trace ether, dull, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_12/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_12/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_12/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_12/looped.json",
+                                              "plot_image":  "data/samples/sample_12/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_13",
+                                              "title":  "Sample 13",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "in spectral cross-section, the chamber resolves forceful, rounded, and mid-oscillation; the reflected layer reappears as gradual-onset and feathered. initial pressure exposes front-loaded, clipped, and bright; after propagation through the core, the return field carries near-tonal and low-ceiling. at entry the envelope carries volatile, gentle-peak, and ordered; through sustain and release, the trace returns rippled and unpitched. the onset lane shows strong rumble, dominant thump, and dominant boom; the mid-body drift and tail channel answer with strong boxiness and present honk. in spectral cross-section, the chamber resolves present quack, faint clang, and present punch; the reflected layer reappears as faint bite and faint twang. initial pressure exposes faint ring, faint tang, and faint edge; after propagation through the core, the return field carries faint chime and faint zing. at entry the envelope carries faint crackle, present sibilance, and present fizz; through sustain and release, the trace returns present sheen and present sparkle. the onset lane shows present glint, strong air, and present vapor; the mid-body drift and tail channel answer with present ether, mellow, and gritty.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_13/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_13/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_13/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_13/looped.json",
+                                              "plot_image":  "data/samples/sample_13/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_14",
+                                              "title":  "Sample 14",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the profile opens with mid-power, punchy, and high-oscillation; once recirculated through the line, it lands at swift-onset and aggressive. the first pass reports front-weighted, clipped, and brilliant; deeper in the frame, the contour settles into noise-heavy and mid-ceiling. diagnostic playback marks churning, flat-topped, and semi-diffuse; the follow-through corridor then stabilizes around rippled and unpitched. from the leading edge onward, the meter catches faint rumble, faint thump, and faint boom; downstream, the residue writes faint boxiness and strong honk. the profile opens with dominant quack, strong clang, and strong punch; once recirculated through the line, it lands at present bite and strong twang. the first pass reports dominant ring, present tang, and strong edge; deeper in the frame, the contour settles into strong chime and strong zing. diagnostic playback marks strong crackle, strong sibilance, and strong fizz; the follow-through corridor then stabilizes around strong sheen and strong sparkle. from the leading edge onward, the meter catches strong glint, strong air, and strong vapor; downstream, the residue writes strong ether, keen, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_14/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_14/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_14/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_14/looped.json",
+                                              "plot_image":  "data/samples/sample_14/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_15",
+                                              "title":  "Sample 15",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "initial pressure exposes hushed, impulsive, and extreme-oscillation; after propagation through the core, the return field carries swift-onset and measured. at entry the envelope carries evenly-distributed, clipped, and sizzling; through sustain and release, the trace returns noise-heavy and open-ceiling. the onset lane shows frozen, flat-topped, and chaotic; the mid-body drift and tail channel answer with rippled and unpitched. in spectral cross-section, the chamber resolves faint rumble, faint thump, and faint boom; the reflected layer reappears as trace boxiness and faint honk. initial pressure exposes faint quack, faint clang, and faint punch; after propagation through the core, the return field carries faint bite and faint twang. at entry the envelope carries trace ring, faint tang, and faint edge; through sustain and release, the trace returns faint chime and faint zing. the onset lane shows faint crackle, faint sibilance, and faint fizz; the mid-body drift and tail channel answer with faint sheen and present sparkle. in spectral cross-section, the chamber resolves present glint, present air, and present vapor; the reflected layer reappears as strong ether, cutting, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_15/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_15/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_15/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_15/looped.json",
+                                              "plot_image":  "data/samples/sample_15/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_16",
+                                              "title":  "Sample 16",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the first pass reports mid-power, sustained, and low-oscillation; deeper in the frame, the contour settles into swift-onset and aggressive. diagnostic playback marks evenly-distributed, clipped, and bright; the follow-through corridor then stabilizes around near-tonal and low-ceiling. from the leading edge onward, the meter catches frozen, gentle-peak, and semi-diffuse; downstream, the residue writes glass-smooth and unpitched. the profile opens with strong rumble, strong thump, and strong boom; once recirculated through the line, it lands at present boxiness and present honk. the first pass reports present quack, present clang, and present punch; deeper in the frame, the contour settles into present bite and present twang. diagnostic playback marks present ring, faint tang, and faint edge; the follow-through corridor then stabilizes around faint chime and faint zing. from the leading edge onward, the meter catches faint crackle, faint sibilance, and faint fizz; downstream, the residue writes faint sheen and faint sparkle. the profile opens with faint glint, faint air, and faint vapor; once recirculated through the line, it lands at faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_16/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_16/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_16/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_16/looped.json",
+                                              "plot_image":  "data/samples/sample_16/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_17",
+                                              "title":  "Sample 17",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries mid-power, sustained, and low-oscillation; through sustain and release, the trace returns swift-onset and aggressive. the onset lane shows evenly-distributed, clipped, and bright; the mid-body drift and tail channel answer with semi-tonal and low-ceiling. in spectral cross-section, the chamber resolves frozen, gentle-peak, and semi-diffuse; the reflected layer reappears as glass-smooth and unpitched. initial pressure exposes strong rumble, strong thump, and strong boom; after propagation through the core, the return field carries present boxiness and present honk. at entry the envelope carries present quack, present clang, and faint punch; through sustain and release, the trace returns present bite and faint twang. the onset lane shows present ring, faint tang, and present edge; the mid-body drift and tail channel answer with faint chime and faint zing. in spectral cross-section, the chamber resolves faint crackle, faint sibilance, and faint fizz; the reflected layer reappears as faint sheen and faint sparkle. initial pressure exposes faint glint, faint air, and faint vapor; after propagation through the core, the return field carries faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_17/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_17/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_17/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_17/looped.json",
+                                              "plot_image":  "data/samples/sample_17/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_18",
+                                              "title":  "Sample 18",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks mid-power, sustained, and low-oscillation; the follow-through corridor then stabilizes around swift-onset and aggressive. from the leading edge onward, the meter catches evenly-distributed, clipped, and bright; downstream, the residue writes semi-tonal and low-ceiling. the profile opens with frozen, gentle-peak, and semi-diffuse; once recirculated through the line, it lands at glass-smooth and unpitched. the first pass reports present rumble, strong thump, and strong boom; deeper in the frame, the contour settles into present boxiness and present honk. diagnostic playback marks faint quack, present clang, and present punch; the follow-through corridor then stabilizes around faint bite and present twang. from the leading edge onward, the meter catches present ring, faint tang, and faint edge; downstream, the residue writes faint chime and faint zing. the profile opens with faint crackle, faint sibilance, and faint fizz; once recirculated through the line, it lands at faint sheen and faint sparkle. the first pass reports faint glint, faint air, and faint vapor; deeper in the frame, the contour settles into faint ether, mellow, and sleek.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_18/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_18/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_18/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_18/looped.json",
+                                              "plot_image":  "data/samples/sample_18/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_19",
+                                              "title":  "Sample 19",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the onset lane shows mid-power, sustained, and low-oscillation; the mid-body drift and tail channel answer with swift-onset and aggressive. in spectral cross-section, the chamber resolves evenly-distributed, clipped, and bright; the reflected layer reappears as semi-tonal and low-ceiling. initial pressure exposes frozen, gentle-peak, and semi-diffuse; after propagation through the core, the return field carries glass-smooth and unpitched. at entry the envelope carries present rumble, strong thump, and strong boom; through sustain and release, the trace returns present boxiness and present honk. the onset lane shows present quack, present clang, and present punch; the mid-body drift and tail channel answer with present bite and faint twang. in spectral cross-section, the chamber resolves faint ring, present tang, and faint edge; the reflected layer reappears as faint chime and faint zing. initial pressure exposes faint crackle, faint sibilance, and faint fizz; after propagation through the core, the return field carries faint sheen and faint sparkle. at entry the envelope carries faint glint, faint air, and faint vapor; through sustain and release, the trace returns faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_19/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_19/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_19/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_19/looped.json",
+                                              "plot_image":  "data/samples/sample_19/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_20",
+                                              "title":  "Sample 20",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "from the leading edge onward, the meter catches mid-power, sustained, and low-oscillation; downstream, the residue writes swift-onset and aggressive. the profile opens with evenly-distributed, clipped, and bright; once recirculated through the line, it lands at semi-tonal and low-ceiling. the first pass reports frozen, gentle-peak, and semi-diffuse; deeper in the frame, the contour settles into glass-smooth and unpitched. diagnostic playback marks present rumble, strong thump, and strong boom; the follow-through corridor then stabilizes around present boxiness and present honk. from the leading edge onward, the meter catches present quack, present clang, and present punch; downstream, the residue writes faint bite and present twang. the profile opens with present ring, present tang, and faint edge; once recirculated through the line, it lands at faint chime and present zing. the first pass reports faint crackle, faint sibilance, and faint fizz; deeper in the frame, the contour settles into faint sheen and faint sparkle. diagnostic playback marks faint glint, faint air, and faint vapor; the follow-through corridor then stabilizes around faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_20/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_20/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_20/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_20/looped.json",
+                                              "plot_image":  "data/samples/sample_20/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_21",
+                                              "title":  "Sample 21",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "in spectral cross-section, the chamber resolves forceful, sustained, and low-oscillation; the reflected layer reappears as snap-onset and explosive. initial pressure exposes evenly-distributed, clipped, and bright; after propagation through the core, the return field carries near-tonal and low-ceiling. at entry the envelope carries frozen, gentle-peak, and semi-diffuse; through sustain and release, the trace returns even-contour and unpitched. the onset lane shows strong rumble, strong thump, and strong boom; the mid-body drift and tail channel answer with present boxiness and present honk. in spectral cross-section, the chamber resolves present quack, present clang, and present punch; the reflected layer reappears as present bite and present twang. initial pressure exposes present ring, present tang, and faint edge; after propagation through the core, the return field carries present chime and faint zing. at entry the envelope carries faint crackle, faint sibilance, and faint fizz; through sustain and release, the trace returns faint sheen and faint sparkle. the onset lane shows faint glint, faint air, and faint vapor; the mid-body drift and tail channel answer with faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_21/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_21/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_21/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_21/looped.json",
+                                              "plot_image":  "data/samples/sample_21/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_22",
+                                              "title":  "Sample 22",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the profile opens with mid-power, rounded, and low-oscillation; once recirculated through the line, it lands at swift-onset and measured. the first pass reports evenly-distributed, clipped, and bright; deeper in the frame, the contour settles into semi-tonal and low-ceiling. diagnostic playback marks frozen, gentle-peak, and semi-diffuse; the follow-through corridor then stabilizes around even-contour and unpitched. from the leading edge onward, the meter catches present rumble, strong thump, and strong boom; downstream, the residue writes present boxiness and present honk. the profile opens with present quack, present clang, and present punch; once recirculated through the line, it lands at present bite and faint twang. the first pass reports present ring, faint tang, and faint edge; deeper in the frame, the contour settles into faint chime and faint zing. diagnostic playback marks faint crackle, faint sibilance, and faint fizz; the follow-through corridor then stabilizes around faint sheen and faint sparkle. from the leading edge onward, the meter catches faint glint, faint air, and faint vapor; downstream, the residue writes faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_22/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_22/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_22/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_22/looped.json",
+                                              "plot_image":  "data/samples/sample_22/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_23",
+                                              "title":  "Sample 23",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "initial pressure exposes forceful, sustained, and mid-oscillation; after propagation through the core, the return field carries swift-onset and aggressive. at entry the envelope carries evenly-distributed, clipped, and bright; through sustain and release, the trace returns near-tonal and low-ceiling. the onset lane shows frozen, gentle-peak, and semi-diffuse; the mid-body drift and tail channel answer with glass-smooth and unpitched. in spectral cross-section, the chamber resolves strong rumble, strong thump, and strong boom; the reflected layer reappears as strong boxiness and present honk. initial pressure exposes faint quack, present clang, and present punch; after propagation through the core, the return field carries faint bite and faint twang. at entry the envelope carries faint ring, faint tang, and faint edge; through sustain and release, the trace returns faint chime and faint zing. the onset lane shows faint crackle, faint sibilance, and faint fizz; the mid-body drift and tail channel answer with faint sheen and faint sparkle. in spectral cross-section, the chamber resolves faint glint, faint air, and faint vapor; the reflected layer reappears as faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_23/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_23/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_23/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_23/looped.json",
+                                              "plot_image":  "data/samples/sample_23/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_24",
+                                              "title":  "Sample 24",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the first pass reports forceful, rounded, and low-oscillation; deeper in the frame, the contour settles into gradual-onset and feathered. diagnostic playback marks front-weighted, clipped, and warm; the follow-through corridor then stabilizes around pure-tone and deep-ceiling. from the leading edge onward, the meter catches volatile, gentle-peak, and ordered; downstream, the residue writes rippled and unpitched. the profile opens with dominant rumble, dominant thump, and strong boom; once recirculated through the line, it lands at present boxiness and present honk. the first pass reports present quack, present clang, and present punch; deeper in the frame, the contour settles into present bite and present twang. diagnostic playback marks present ring, strong tang, and strong edge; the follow-through corridor then stabilizes around strong chime and strong zing. from the leading edge onward, the meter catches present crackle, strong sibilance, and present fizz; downstream, the residue writes present sheen and present sparkle. the profile opens with present glint, faint air, and faint vapor; once recirculated through the line, it lands at trace ether, dull, and gritty.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_24/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_24/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_24/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_24/looped.json",
+                                              "plot_image":  "data/samples/sample_24/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_25",
+                                              "title":  "Sample 25",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries mid-power, impulsive, and extreme-oscillation; through sustain and release, the trace returns snap-onset and explosive. the onset lane shows front-loaded, clipped, and brilliant; the mid-body drift and tail channel answer with noise-heavy and open-ceiling. in spectral cross-section, the chamber resolves drifting, flat-topped, and chaotic; the reflected layer reappears as even-contour and unpitched. initial pressure exposes trace rumble, faint thump, and present boom; after propagation through the core, the return field carries present boxiness and present honk. at entry the envelope carries present quack, present clang, and present punch; through sustain and release, the trace returns present bite and present twang. the onset lane shows present ring, present tang, and present edge; the mid-body drift and tail channel answer with present chime and present zing. in spectral cross-section, the chamber resolves present crackle, strong sibilance, and strong fizz; the reflected layer reappears as strong sheen and strong sparkle. initial pressure exposes strong glint, strong air, and strong vapor; after propagation through the core, the return field carries strong ether, keen, and gritty.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_25/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_25/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_25/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_25/looped.json",
+                                              "plot_image":  "data/samples/sample_25/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_26",
+                                              "title":  "Sample 26",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks forceful, rounded, and high-oscillation; the follow-through corridor then stabilizes around gradual-onset and feathered. from the leading edge onward, the meter catches evenly-distributed, clipped, and warm; downstream, the residue writes pure-tone and mid-ceiling. the profile opens with volatile, gentle-peak, and semi-diffuse; once recirculated through the line, it lands at rippled and unpitched. the first pass reports present rumble, present thump, and dominant boom; deeper in the frame, the contour settles into strong boxiness and present honk. diagnostic playback marks present quack, strong clang, and strong punch; the follow-through corridor then stabilizes around dominant bite and strong twang. from the leading edge onward, the meter catches strong ring, strong tang, and present edge; downstream, the residue writes present chime and strong zing. the profile opens with present crackle, faint sibilance, and present fizz; once recirculated through the line, it lands at faint sheen and faint sparkle. the first pass reports faint glint, faint air, and faint vapor; deeper in the frame, the contour settles into faint ether, mellow, and textured.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_26/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_26/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_26/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_26/looped.json",
+                                              "plot_image":  "data/samples/sample_26/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_27",
+                                              "title":  "Sample 27",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the onset lane shows forceful, rounded, and low-oscillation; the mid-body drift and tail channel answer with creeping-onset and feathered. in spectral cross-section, the chamber resolves centered, staccato, and warm; the reflected layer reappears as pure-tone and deep-ceiling. initial pressure exposes surging, gentle-peak, and ordered; after propagation through the core, the return field carries serrated and unpitched. at entry the envelope carries dominant rumble, dominant thump, and strong boom; through sustain and release, the trace returns strong boxiness and present honk. the onset lane shows strong quack, present clang, and present punch; the mid-body drift and tail channel answer with present bite and present twang. in spectral cross-section, the chamber resolves present ring, faint tang, and faint edge; the reflected layer reappears as faint chime and faint zing. initial pressure exposes faint crackle, faint sibilance, and faint fizz; after propagation through the core, the return field carries faint sheen and faint sparkle. at entry the envelope carries faint glint, faint air, and faint vapor; through sustain and release, the trace returns faint ether, dull, and textured.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_27/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_27/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_27/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_27/looped.json",
+                                              "plot_image":  "data/samples/sample_27/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_28",
+                                              "title":  "Sample 28",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "from the leading edge onward, the meter catches mid-power, rounded, and mid-oscillation; downstream, the residue writes swift-onset and aggressive. the profile opens with evenly-distributed, clipped, and warm; once recirculated through the line, it lands at near-tonal and mid-ceiling. the first pass reports frozen, gentle-peak, and semi-diffuse; deeper in the frame, the contour settles into glass-smooth and unpitched. diagnostic playback marks present rumble, present thump, and present boom; the follow-through corridor then stabilizes around present boxiness and strong honk. from the leading edge onward, the meter catches strong quack, present clang, and strong punch; downstream, the residue writes present bite and faint twang. the profile opens with present ring, strong tang, and present edge; once recirculated through the line, it lands at faint chime and trace zing. the first pass reports faint crackle, faint sibilance, and faint fizz; deeper in the frame, the contour settles into trace sheen and trace sparkle. diagnostic playback marks trace glint, trace air, and trace vapor; the follow-through corridor then stabilizes around trace ether, dull, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_28/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_28/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_28/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_28/looped.json",
+                                              "plot_image":  "data/samples/sample_28/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_29",
+                                              "title":  "Sample 29",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "in spectral cross-section, the chamber resolves hushed, spiky, and extreme-oscillation; the reflected layer reappears as snap-onset and explosive. initial pressure exposes front-weighted, staccato, and sizzling; after propagation through the core, the return field carries noise-heavy and open-ceiling. at entry the envelope carries frozen, flat-topped, and chaotic; through sustain and release, the trace returns rippled and unpitched. the onset lane shows faint rumble, faint thump, and faint boom; the mid-body drift and tail channel answer with faint boxiness and faint honk. in spectral cross-section, the chamber resolves faint quack, faint clang, and faint punch; the reflected layer reappears as faint bite and faint twang. initial pressure exposes present ring, faint tang, and present edge; after propagation through the core, the return field carries present chime and present zing. at entry the envelope carries present crackle, present sibilance, and present fizz; through sustain and release, the trace returns present sheen and present sparkle. the onset lane shows strong glint, present air, and strong vapor; the mid-body drift and tail channel answer with strong ether, cutting, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_29/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_29/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_29/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_29/looped.json",
+                                              "plot_image":  "data/samples/sample_29/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_30",
+                                              "title":  "Sample 30",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the profile opens with forceful, rounded, and high-oscillation; once recirculated through the line, it lands at swift-onset and aggressive. the first pass reports front-weighted, clipped, and brilliant; deeper in the frame, the contour settles into semi-tonal and mid-ceiling. diagnostic playback marks volatile, gentle-peak, and semi-diffuse; the follow-through corridor then stabilizes around rippled and unpitched. from the leading edge onward, the meter catches strong rumble, dominant thump, and dominant boom; downstream, the residue writes strong boxiness and strong honk. the profile opens with strong quack, strong clang, and strong punch; once recirculated through the line, it lands at strong bite and strong twang. the first pass reports strong ring, strong tang, and strong edge; deeper in the frame, the contour settles into strong chime and strong zing. diagnostic playback marks strong crackle, strong sibilance, and strong fizz; the follow-through corridor then stabilizes around strong sheen and strong sparkle. from the leading edge onward, the meter catches strong glint, strong air, and present vapor; downstream, the residue writes present ether, mellow, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_30/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_30/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_30/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_30/looped.json",
+                                              "plot_image":  "data/samples/sample_30/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_31",
+                                              "title":  "Sample 31",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "initial pressure exposes mid-power, impulsive, and high-oscillation; after propagation through the core, the return field carries swift-onset and aggressive. at entry the envelope carries front-loaded, clipped, and bright; through sustain and release, the trace returns semi-tonal and mid-ceiling. the onset lane shows drifting, gentle-peak, and diffuse; the mid-body drift and tail channel answer with even-contour and unpitched. in spectral cross-section, the chamber resolves trace rumble, present thump, and strong boom; the reflected layer reappears as present boxiness and present honk. initial pressure exposes strong quack, present clang, and strong punch; after propagation through the core, the return field carries strong bite and strong twang. at entry the envelope carries strong ring, strong tang, and present edge; through sustain and release, the trace returns present chime and strong zing. the onset lane shows strong crackle, strong sibilance, and strong fizz; the mid-body drift and tail channel answer with strong sheen and strong sparkle. in spectral cross-section, the chamber resolves present glint, present air, and present vapor; the reflected layer reappears as faint ether, mellow, and textured.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_31/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_31/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_31/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_31/looped.json",
+                                              "plot_image":  "data/samples/sample_31/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_32",
+                                              "title":  "Sample 32",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the first pass reports mid-power, impulsive, and extreme-oscillation; deeper in the frame, the contour settles into snap-onset and explosive. diagnostic playback marks evenly-distributed, clipped, and sizzling; the follow-through corridor then stabilizes around noise-heavy and open-ceiling. from the leading edge onward, the meter catches frozen, flat-topped, and chaotic; downstream, the residue writes even-contour and unpitched. the profile opens with present rumble, faint thump, and faint boom; once recirculated through the line, it lands at faint boxiness and faint honk. the first pass reports faint quack, faint clang, and faint punch; deeper in the frame, the contour settles into faint bite and faint twang. diagnostic playback marks faint ring, faint tang, and faint edge; the follow-through corridor then stabilizes around faint chime and faint zing. from the leading edge onward, the meter catches present crackle, faint sibilance, and faint fizz; downstream, the residue writes faint sheen and present sparkle. the profile opens with strong glint, strong air, and strong vapor; once recirculated through the line, it lands at strong ether, cutting, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_32/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_32/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_32/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_32/looped.json",
+                                              "plot_image":  "data/samples/sample_32/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_33",
+                                              "title":  "Sample 33",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries thunderous, sustained, and mid-oscillation; through sustain and release, the trace returns snap-onset and aggressive. the onset lane shows evenly-distributed, clipped, and bright; the mid-body drift and tail channel answer with semi-tonal and low-ceiling. in spectral cross-section, the chamber resolves frozen, gentle-peak, and semi-diffuse; the reflected layer reappears as glass-smooth and unpitched. initial pressure exposes faint rumble, present thump, and present boom; after propagation through the core, the return field carries strong boxiness and strong honk. at entry the envelope carries strong quack, strong clang, and strong punch; through sustain and release, the trace returns strong bite and present twang. the onset lane shows present ring, present tang, and present edge; the mid-body drift and tail channel answer with present chime and present zing. in spectral cross-section, the chamber resolves present crackle, present sibilance, and present fizz; the reflected layer reappears as present sheen and present sparkle. initial pressure exposes present glint, present air, and present vapor; after propagation through the core, the return field carries present ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_33/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_33/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_33/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_33/looped.json",
+                                              "plot_image":  "data/samples/sample_33/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_34",
+                                              "title":  "Sample 34",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks thunderous, sustained, and mid-oscillation; the follow-through corridor then stabilizes around snap-onset and aggressive. from the leading edge onward, the meter catches evenly-distributed, clipped, and bright; downstream, the residue writes semi-tonal and low-ceiling. the profile opens with frozen, gentle-peak, and semi-diffuse; once recirculated through the line, it lands at glass-smooth and unpitched. the first pass reports faint rumble, present thump, and present boom; deeper in the frame, the contour settles into strong boxiness and strong honk. diagnostic playback marks strong quack, strong clang, and strong punch; the follow-through corridor then stabilizes around strong bite and present twang. from the leading edge onward, the meter catches present ring, present tang, and present edge; downstream, the residue writes present chime and present zing. the profile opens with present crackle, present sibilance, and present fizz; once recirculated through the line, it lands at present sheen and present sparkle. the first pass reports present glint, present air, and present vapor; deeper in the frame, the contour settles into present ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_34/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_34/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_34/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_34/looped.json",
+                                              "plot_image":  "data/samples/sample_34/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_35",
+                                              "title":  "Sample 35",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the onset lane shows thunderous, sustained, and mid-oscillation; the mid-body drift and tail channel answer with snap-onset and aggressive. in spectral cross-section, the chamber resolves evenly-distributed, clipped, and bright; the reflected layer reappears as semi-tonal and low-ceiling. initial pressure exposes frozen, gentle-peak, and semi-diffuse; after propagation through the core, the return field carries glass-smooth and unpitched. at entry the envelope carries faint rumble, present thump, and present boom; through sustain and release, the trace returns strong boxiness and strong honk. the onset lane shows strong quack, strong clang, and strong punch; the mid-body drift and tail channel answer with strong bite and present twang. in spectral cross-section, the chamber resolves present ring, present tang, and present edge; the reflected layer reappears as present chime and present zing. initial pressure exposes present crackle, present sibilance, and present fizz; after propagation through the core, the return field carries present sheen and present sparkle. at entry the envelope carries present glint, present air, and present vapor; through sustain and release, the trace returns present ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_35/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_35/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_35/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_35/looped.json",
+                                              "plot_image":  "data/samples/sample_35/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_36",
+                                              "title":  "Sample 36",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "from the leading edge onward, the meter catches hushed, punchy, and high-oscillation; downstream, the residue writes swift-onset and measured. the profile opens with evenly-distributed, clipped, and brilliant; once recirculated through the line, it lands at semi-tonal and mid-ceiling. the first pass reports frozen, gentle-peak, and diffuse; deeper in the frame, the contour settles into glass-smooth and unpitched. diagnostic playback marks faint rumble, trace thump, and trace boom; the follow-through corridor then stabilizes around trace boxiness and trace honk. from the leading edge onward, the meter catches trace quack, trace clang, and trace punch; downstream, the residue writes faint bite and faint twang. the profile opens with faint ring, faint tang, and faint edge; once recirculated through the line, it lands at faint chime and faint zing. the first pass reports faint crackle, present sibilance, and present fizz; deeper in the frame, the contour settles into faint sheen and present sparkle. diagnostic playback marks faint glint, faint air, and faint vapor; the follow-through corridor then stabilizes around faint ether, keen, and textured.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_36/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_36/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_36/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_36/looped.json",
+                                              "plot_image":  "data/samples/sample_36/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_37",
+                                              "title":  "Sample 37",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "in spectral cross-section, the chamber resolves mid-power, impulsive, and high-oscillation; the reflected layer reappears as swift-onset and aggressive. initial pressure exposes front-loaded, staccato, and bright; after propagation through the core, the return field carries semi-tonal and mid-ceiling. at entry the envelope carries churning, gentle-peak, and diffuse; through sustain and release, the trace returns even-contour and unpitched. the onset lane shows present rumble, strong thump, and strong boom; the mid-body drift and tail channel answer with strong boxiness and strong honk. in spectral cross-section, the chamber resolves strong quack, strong clang, and strong punch; the reflected layer reappears as strong bite and strong twang. initial pressure exposes strong ring, strong tang, and strong edge; after propagation through the core, the return field carries strong chime and strong zing. at entry the envelope carries strong crackle, strong sibilance, and strong fizz; through sustain and release, the trace returns strong sheen and strong sparkle. the onset lane shows strong glint, strong air, and present vapor; the mid-body drift and tail channel answer with present ether, mellow, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_37/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_37/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_37/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_37/looped.json",
+                                              "plot_image":  "data/samples/sample_37/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_38",
+                                              "title":  "Sample 38",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the profile opens with mid-power, punchy, and high-oscillation; once recirculated through the line, it lands at gradual-onset and feathered. the first pass reports centered, lingering, and bright; deeper in the frame, the contour settles into near-tonal and mid-ceiling. diagnostic playback marks volatile, gentle-peak, and diffuse; the follow-through corridor then stabilizes around even-contour and unpitched. from the leading edge onward, the meter catches present rumble, strong thump, and strong boom; downstream, the residue writes strong boxiness and strong honk. the profile opens with strong quack, strong clang, and strong punch; once recirculated through the line, it lands at strong bite and strong twang. the first pass reports strong ring, strong tang, and strong edge; deeper in the frame, the contour settles into strong chime and strong zing. diagnostic playback marks strong crackle, dominant sibilance, and dominant fizz; the follow-through corridor then stabilizes around dominant sheen and strong sparkle. from the leading edge onward, the meter catches strong glint, strong air, and strong vapor; downstream, the residue writes present ether, mellow, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_38/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_38/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_38/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_38/looped.json",
+                                              "plot_image":  "data/samples/sample_38/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_39",
+                                              "title":  "Sample 39",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "initial pressure exposes mid-power, punchy, and high-oscillation; after propagation through the core, the return field carries snap-onset and aggressive. at entry the envelope carries evenly-distributed, clipped, and bright; through sustain and release, the trace returns near-tonal and mid-ceiling. the onset lane shows drifting, gentle-peak, and diffuse; the mid-body drift and tail channel answer with even-contour and unpitched. in spectral cross-section, the chamber resolves faint rumble, faint thump, and trace boom; the reflected layer reappears as trace boxiness and trace honk. initial pressure exposes faint quack, present clang, and present punch; after propagation through the core, the return field carries strong bite and present twang. at entry the envelope carries present ring, present tang, and present edge; through sustain and release, the trace returns present chime and present zing. the onset lane shows present crackle, strong sibilance, and strong fizz; the mid-body drift and tail channel answer with strong sheen and present sparkle. in spectral cross-section, the chamber resolves faint glint, faint air, and faint vapor; the reflected layer reappears as faint ether, mellow, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_39/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_39/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_39/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_39/looped.json",
+                                              "plot_image":  "data/samples/sample_39/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_40",
+                                              "title":  "Sample 40",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the first pass reports forceful, sustained, and low-oscillation; deeper in the frame, the contour settles into moderate-onset and measured. diagnostic playback marks evenly-distributed, clipped, and bright; the follow-through corridor then stabilizes around near-tonal and low-ceiling. from the leading edge onward, the meter catches frozen, gentle-peak, and semi-diffuse; downstream, the residue writes even-contour and unpitched. the profile opens with strong rumble, strong thump, and strong boom; once recirculated through the line, it lands at strong boxiness and strong honk. the first pass reports present quack, present clang, and present punch; deeper in the frame, the contour settles into present bite and present twang. diagnostic playback marks faint ring, faint tang, and faint edge; the follow-through corridor then stabilizes around faint chime and faint zing. from the leading edge onward, the meter catches faint crackle, faint sibilance, and faint fizz; downstream, the residue writes faint sheen and faint sparkle. the profile opens with faint glint, faint air, and faint vapor; once recirculated through the line, it lands at faint ether, dull, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_40/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_40/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_40/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_40/looped.json",
+                                              "plot_image":  "data/samples/sample_40/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_41",
+                                              "title":  "Sample 41",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries hushed, punchy, and extreme-oscillation; through sustain and release, the trace returns swift-onset and measured. the onset lane shows evenly-distributed, clipped, and sizzling; the mid-body drift and tail channel answer with white-noise and open-ceiling. in spectral cross-section, the chamber resolves frozen, flat-topped, and chaotic; the reflected layer reappears as rippled and unpitched. initial pressure exposes faint rumble, trace thump, and faint boom; after propagation through the core, the return field carries faint boxiness and faint honk. at entry the envelope carries faint quack, faint clang, and faint punch; through sustain and release, the trace returns faint bite and faint twang. the onset lane shows faint ring, faint tang, and faint edge; the mid-body drift and tail channel answer with faint chime and faint zing. in spectral cross-section, the chamber resolves present crackle, faint sibilance, and faint fizz; the reflected layer reappears as present sheen and present sparkle. initial pressure exposes present glint, present air, and present vapor; after propagation through the core, the return field carries present ether, keen, and textured.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_41/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_41/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_41/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_41/looped.json",
+                                              "plot_image":  "data/samples/sample_41/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_42",
+                                              "title":  "Sample 42",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks mid-power, punchy, and high-oscillation; the follow-through corridor then stabilizes around snap-onset and aggressive. from the leading edge onward, the meter catches evenly-distributed, clipped, and brilliant; downstream, the residue writes semi-tonal and mid-ceiling. the profile opens with frozen, gentle-peak, and diffuse; once recirculated through the line, it lands at glass-smooth and unpitched. the first pass reports faint rumble, faint thump, and faint boom; deeper in the frame, the contour settles into faint boxiness and faint honk. diagnostic playback marks faint quack, present clang, and faint punch; the follow-through corridor then stabilizes around faint bite and present twang. from the leading edge onward, the meter catches present ring, present tang, and present edge; downstream, the residue writes present chime and present zing. the profile opens with present crackle, present sibilance, and present fizz; once recirculated through the line, it lands at faint sheen and faint sparkle. the first pass reports faint glint, faint air, and faint vapor; deeper in the frame, the contour settles into faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_42/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_42/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_42/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_42/looped.json",
+                                              "plot_image":  "data/samples/sample_42/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_43",
+                                              "title":  "Sample 43",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the onset lane shows forceful, rounded, and mid-oscillation; the mid-body drift and tail channel answer with snap-onset and aggressive. in spectral cross-section, the chamber resolves evenly-distributed, clipped, and bright; the reflected layer reappears as near-tonal and low-ceiling. initial pressure exposes drifting, gentle-peak, and semi-diffuse; after propagation through the core, the return field carries even-contour and unpitched. at entry the envelope carries present rumble, strong thump, and dominant boom; through sustain and release, the trace returns strong boxiness and strong honk. the onset lane shows strong quack, strong clang, and strong punch; the mid-body drift and tail channel answer with present bite and faint twang. in spectral cross-section, the chamber resolves faint ring, faint tang, and present edge; the reflected layer reappears as present chime and present zing. initial pressure exposes present crackle, strong sibilance, and strong fizz; after propagation through the core, the return field carries present sheen and faint sparkle. at entry the envelope carries faint glint, faint air, and faint vapor; through sustain and release, the trace returns faint ether, mellow, and textured.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_43/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_43/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_43/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_43/looped.json",
+                                              "plot_image":  "data/samples/sample_43/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_44",
+                                              "title":  "Sample 44",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "from the leading edge onward, the meter catches hushed, impulsive, and extreme-oscillation; downstream, the residue writes snap-onset and explosive. the profile opens with evenly-distributed, clipped, and brilliant; once recirculated through the line, it lands at noise-heavy and open-ceiling. the first pass reports frozen, flat-topped, and diffuse; deeper in the frame, the contour settles into glass-smooth and unpitched. diagnostic playback marks faint rumble, faint thump, and faint boom; the follow-through corridor then stabilizes around trace boxiness and trace honk. from the leading edge onward, the meter catches faint quack, faint clang, and faint punch; downstream, the residue writes faint bite and faint twang. the profile opens with trace ring, faint tang, and faint edge; once recirculated through the line, it lands at faint chime and faint zing. the first pass reports faint crackle, present sibilance, and present fizz; deeper in the frame, the contour settles into present sheen and present sparkle. diagnostic playback marks faint glint, faint air, and faint vapor; the follow-through corridor then stabilizes around present ether, keen, and sleek.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_44/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_44/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_44/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_44/looped.json",
+                                              "plot_image":  "data/samples/sample_44/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_45",
+                                              "title":  "Sample 45",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "in spectral cross-section, the chamber resolves forceful, rounded, and low-oscillation; the reflected layer reappears as moderate-onset and measured. initial pressure exposes evenly-distributed, staccato, and warm; after propagation through the core, the return field carries pure-tone and deep-ceiling. at entry the envelope carries volatile, gentle-peak, and ordered; through sustain and release, the trace returns rippled and unpitched. the onset lane shows dominant rumble, dominant thump, and strong boom; the mid-body drift and tail channel answer with strong boxiness and strong honk. in spectral cross-section, the chamber resolves present quack, present clang, and present punch; the reflected layer reappears as present bite and present twang. initial pressure exposes faint ring, faint tang, and faint edge; after propagation through the core, the return field carries faint chime and faint zing. at entry the envelope carries faint crackle, faint sibilance, and faint fizz; through sustain and release, the trace returns faint sheen and faint sparkle. the onset lane shows faint glint, faint air, and faint vapor; the mid-body drift and tail channel answer with faint ether, dull, and textured.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_45/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_45/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_45/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_45/looped.json",
+                                              "plot_image":  "data/samples/sample_45/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_46",
+                                              "title":  "Sample 46",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the profile opens with mid-power, punchy, and extreme-oscillation; once recirculated through the line, it lands at snap-onset and explosive. the first pass reports evenly-distributed, clipped, and sizzling; deeper in the frame, the contour settles into semi-tonal and open-ceiling. diagnostic playback marks frozen, flat-topped, and diffuse; the follow-through corridor then stabilizes around even-contour and unpitched. from the leading edge onward, the meter catches faint rumble, trace thump, and trace boom; downstream, the residue writes faint boxiness and trace honk. the profile opens with trace quack, faint clang, and faint punch; once recirculated through the line, it lands at faint bite and present twang. the first pass reports present ring, faint tang, and faint edge; deeper in the frame, the contour settles into present chime and present zing. diagnostic playback marks present crackle, present sibilance, and present fizz; the follow-through corridor then stabilizes around present sheen and present sparkle. from the leading edge onward, the meter catches strong glint, strong air, and strong vapor; downstream, the residue writes present ether, cutting, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_46/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_46/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_46/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_46/looped.json",
+                                              "plot_image":  "data/samples/sample_46/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_47",
+                                              "title":  "Sample 47",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "initial pressure exposes forceful, punchy, and extreme-oscillation; after propagation through the core, the return field carries snap-onset and explosive. at entry the envelope carries evenly-distributed, clipped, and sizzling; through sustain and release, the trace returns noise-heavy and open-ceiling. the onset lane shows frozen, gentle-peak, and diffuse; the mid-body drift and tail channel answer with glass-smooth and unpitched. in spectral cross-section, the chamber resolves present rumble, faint thump, and faint boom; the reflected layer reappears as trace boxiness and faint honk. initial pressure exposes faint quack, trace clang, and trace punch; after propagation through the core, the return field carries faint bite and trace twang. at entry the envelope carries faint ring, faint tang, and faint edge; through sustain and release, the trace returns faint chime and faint zing. the onset lane shows faint crackle, faint sibilance, and present fizz; the mid-body drift and tail channel answer with present sheen and present sparkle. in spectral cross-section, the chamber resolves present glint, present air, and present vapor; the reflected layer reappears as strong ether, cutting, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_47/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_47/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_47/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_47/looped.json",
+                                              "plot_image":  "data/samples/sample_47/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_48",
+                                              "title":  "Sample 48",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the first pass reports mid-power, rounded, and high-oscillation; deeper in the frame, the contour settles into moderate-onset and measured. diagnostic playback marks evenly-distributed, clipped, and bright; the follow-through corridor then stabilizes around semi-tonal and mid-ceiling. from the leading edge onward, the meter catches frozen, gentle-peak, and semi-diffuse; downstream, the residue writes even-contour and unpitched. the profile opens with faint rumble, trace thump, and trace boom; once recirculated through the line, it lands at faint boxiness and faint honk. the first pass reports faint quack, faint clang, and faint punch; deeper in the frame, the contour settles into present bite and strong twang. diagnostic playback marks present ring, faint tang, and strong edge; the follow-through corridor then stabilizes around present chime and present zing. from the leading edge onward, the meter catches present crackle, faint sibilance, and faint fizz; downstream, the residue writes faint sheen and faint sparkle. the profile opens with faint glint, faint air, and faint vapor; once recirculated through the line, it lands at faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_48/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_48/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_48/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_48/looped.json",
+                                              "plot_image":  "data/samples/sample_48/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_49",
+                                              "title":  "Sample 49",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries forceful, sustained, and mid-oscillation; through sustain and release, the trace returns snap-onset and explosive. the onset lane shows evenly-distributed, clipped, and brilliant; the mid-body drift and tail channel answer with semi-tonal and low-ceiling. in spectral cross-section, the chamber resolves frozen, flat-topped, and semi-diffuse; the reflected layer reappears as even-contour and unpitched. initial pressure exposes strong rumble, strong thump, and strong boom; after propagation through the core, the return field carries strong boxiness and strong honk. at entry the envelope carries strong quack, present clang, and present punch; through sustain and release, the trace returns strong bite and present twang. the onset lane shows present ring, present tang, and present edge; the mid-body drift and tail channel answer with present chime and present zing. in spectral cross-section, the chamber resolves present crackle, present sibilance, and present fizz; the reflected layer reappears as present sheen and present sparkle. initial pressure exposes present glint, present air, and present vapor; after propagation through the core, the return field carries present ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_49/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_49/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_49/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_49/looped.json",
+                                              "plot_image":  "data/samples/sample_49/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_50",
+                                              "title":  "Sample 50",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks thunderous, sustained, and low-oscillation; the follow-through corridor then stabilizes around snap-onset and aggressive. from the leading edge onward, the meter catches evenly-distributed, clipped, and warm; downstream, the residue writes pure-tone and low-ceiling. the profile opens with frozen, concentrated, and semi-diffuse; once recirculated through the line, it lands at glass-smooth and unpitched. the first pass reports present rumble, strong thump, and strong boom; deeper in the frame, the contour settles into strong boxiness and strong honk. diagnostic playback marks strong quack, strong clang, and present punch; the follow-through corridor then stabilizes around present bite and present twang. from the leading edge onward, the meter catches faint ring, faint tang, and faint edge; downstream, the residue writes faint chime and faint zing. the profile opens with faint crackle, faint sibilance, and trace fizz; once recirculated through the line, it lands at trace sheen and trace sparkle. the first pass reports trace glint, trace air, and trace vapor; deeper in the frame, the contour settles into trace ether, dull, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_50/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_50/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_50/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_50/looped.json",
+                                              "plot_image":  "data/samples/sample_50/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_51",
+                                              "title":  "Sample 51",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the onset lane shows mid-power, impulsive, and mid-oscillation; the mid-body drift and tail channel answer with moderate-onset and measured. in spectral cross-section, the chamber resolves centered, short-decay, and brilliant; the reflected layer reappears as semi-tonal and mid-ceiling. initial pressure exposes churning, gentle-peak, and diffuse; after propagation through the core, the return field carries even-contour and unpitched. at entry the envelope carries strong rumble, strong thump, and strong boom; through sustain and release, the trace returns strong boxiness and strong honk. the onset lane shows strong quack, strong clang, and strong punch; the mid-body drift and tail channel answer with strong bite and present twang. in spectral cross-section, the chamber resolves faint ring, present tang, and present edge; the reflected layer reappears as present chime and present zing. initial pressure exposes strong crackle, strong sibilance, and strong fizz; after propagation through the core, the return field carries strong sheen and strong sparkle. at entry the envelope carries strong glint, strong air, and strong vapor; through sustain and release, the trace returns strong ether, mellow, and gritty.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_51/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_51/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_51/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_51/looped.json",
+                                              "plot_image":  "data/samples/sample_51/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_52",
+                                              "title":  "Sample 52",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "from the leading edge onward, the meter catches mid-power, punchy, and extreme-oscillation; downstream, the residue writes creeping-onset and feathered. the profile opens with centered, clipped, and brilliant; once recirculated through the line, it lands at noise-heavy and high-ceiling. the first pass reports volatile, flat-topped, and chaotic; deeper in the frame, the contour settles into even-contour and unpitched. diagnostic playback marks strong rumble, strong thump, and present boom; the follow-through corridor then stabilizes around strong boxiness and strong honk. from the leading edge onward, the meter catches strong quack, strong clang, and strong punch; downstream, the residue writes strong bite and strong twang. the profile opens with strong ring, present tang, and present edge; once recirculated through the line, it lands at present chime and present zing. the first pass reports present crackle, strong sibilance, and strong fizz; deeper in the frame, the contour settles into strong sheen and strong sparkle. diagnostic playback marks strong glint, dominant air, and strong vapor; the follow-through corridor then stabilizes around dominant ether, keen, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_52/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_52/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_52/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_52/looped.json",
+                                              "plot_image":  "data/samples/sample_52/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_53",
+                                              "title":  "Sample 53",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "in spectral cross-section, the chamber resolves forceful, rounded, and extreme-oscillation; the reflected layer reappears as creeping-onset and feathered. initial pressure exposes centered, short-decay, and brilliant; after propagation through the core, the return field carries noise-heavy and open-ceiling. at entry the envelope carries volatile, flat-topped, and chaotic; through sustain and release, the trace returns even-contour and unpitched. the onset lane shows present rumble, present thump, and present boom; the mid-body drift and tail channel answer with present boxiness and strong honk. in spectral cross-section, the chamber resolves strong quack, strong clang, and strong punch; the reflected layer reappears as strong bite and strong twang. initial pressure exposes strong ring, strong tang, and strong edge; after propagation through the core, the return field carries strong chime and strong zing. at entry the envelope carries present crackle, present sibilance, and strong fizz; through sustain and release, the trace returns dominant sheen and dominant sparkle. the onset lane shows dominant glint, dominant air, and dominant vapor; the mid-body drift and tail channel answer with dominant ether, keen, and gritty.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_53/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_53/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_53/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_53/looped.json",
+                                              "plot_image":  "data/samples/sample_53/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_54",
+                                              "title":  "Sample 54",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the profile opens with forceful, rounded, and extreme-oscillation; once recirculated through the line, it lands at moderate-onset and feathered. the first pass reports centered, staccato, and sizzling; deeper in the frame, the contour settles into noise-heavy and open-ceiling. diagnostic playback marks volatile, flat-topped, and chaotic; the follow-through corridor then stabilizes around even-contour and unpitched. from the leading edge onward, the meter catches faint rumble, faint thump, and present boom; downstream, the residue writes present boxiness and present honk. the profile opens with present quack, present clang, and strong punch; once recirculated through the line, it lands at strong bite and strong twang. the first pass reports strong ring, strong tang, and strong edge; deeper in the frame, the contour settles into strong chime and strong zing. diagnostic playback marks strong crackle, strong sibilance, and strong fizz; the follow-through corridor then stabilizes around present sheen and strong sparkle. from the leading edge onward, the meter catches dominant glint, dominant air, and dominant vapor; downstream, the residue writes dominant ether, cutting, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_54/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_54/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_54/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_54/looped.json",
+                                              "plot_image":  "data/samples/sample_54/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_55",
+                                              "title":  "Sample 55",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "initial pressure exposes mid-power, impulsive, and extreme-oscillation; after propagation through the core, the return field carries swift-onset and aggressive. at entry the envelope carries front-weighted, staccato, and brilliant; through sustain and release, the trace returns noise-heavy and open-ceiling. the onset lane shows churning, flat-topped, and chaotic; the mid-body drift and tail channel answer with even-contour and unpitched. in spectral cross-section, the chamber resolves present rumble, present thump, and strong boom; the reflected layer reappears as strong boxiness and present honk. initial pressure exposes present quack, present clang, and present punch; after propagation through the core, the return field carries present bite and present twang. at entry the envelope carries strong ring, strong tang, and strong edge; through sustain and release, the trace returns strong chime and strong zing. the onset lane shows strong crackle, present sibilance, and present fizz; the mid-body drift and tail channel answer with present sheen and strong sparkle. in spectral cross-section, the chamber resolves strong glint, dominant air, and dominant vapor; the reflected layer reappears as dominant ether, keen, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_55/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_55/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_55/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_55/looped.json",
+                                              "plot_image":  "data/samples/sample_55/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_56",
+                                              "title":  "Sample 56",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the first pass reports mid-power, impulsive, and mid-oscillation; deeper in the frame, the contour settles into moderate-onset and feathered. diagnostic playback marks centered, lingering, and brilliant; the follow-through corridor then stabilizes around semi-tonal and mid-ceiling. from the leading edge onward, the meter catches drifting, gentle-peak, and diffuse; downstream, the residue writes rippled and unpitched. the profile opens with strong rumble, strong thump, and strong boom; once recirculated through the line, it lands at strong boxiness and strong honk. the first pass reports strong quack, strong clang, and strong punch; deeper in the frame, the contour settles into strong bite and strong twang. diagnostic playback marks strong ring, present tang, and present edge; the follow-through corridor then stabilizes around present chime and faint zing. from the leading edge onward, the meter catches present crackle, present sibilance, and present fizz; downstream, the residue writes strong sheen and strong sparkle. the profile opens with strong glint, strong air, and strong vapor; once recirculated through the line, it lands at strong ether, mellow, and textured.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_56/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_56/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_56/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_56/looped.json",
+                                              "plot_image":  "data/samples/sample_56/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_57",
+                                              "title":  "Sample 57",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries mid-power, spiky, and high-oscillation; through sustain and release, the trace returns creeping-onset and feathered. the onset lane shows centered, short-decay, and brilliant; the mid-body drift and tail channel answer with noise-heavy and high-ceiling. in spectral cross-section, the chamber resolves churning, flat-topped, and diffuse; the reflected layer reappears as even-contour and unpitched. initial pressure exposes present rumble, strong thump, and strong boom; after propagation through the core, the return field carries strong boxiness and strong honk. at entry the envelope carries strong quack, strong clang, and strong punch; through sustain and release, the trace returns strong bite and strong twang. the onset lane shows present ring, present tang, and present edge; the mid-body drift and tail channel answer with present chime and faint zing. in spectral cross-section, the chamber resolves present crackle, present sibilance, and strong fizz; the reflected layer reappears as strong sheen and strong sparkle. initial pressure exposes strong glint, strong air, and strong vapor; after propagation through the core, the return field carries strong ether, keen, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_57/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_57/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_57/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_57/looped.json",
+                                              "plot_image":  "data/samples/sample_57/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_58",
+                                              "title":  "Sample 58",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks forceful, sustained, and mid-oscillation; the follow-through corridor then stabilizes around snap-onset and aggressive. from the leading edge onward, the meter catches evenly-distributed, clipped, and bright; downstream, the residue writes semi-tonal and low-ceiling. the profile opens with frozen, gentle-peak, and semi-diffuse; once recirculated through the line, it lands at glass-smooth and unpitched. the first pass reports present rumble, strong thump, and strong boom; deeper in the frame, the contour settles into strong boxiness and strong honk. diagnostic playback marks strong quack, present clang, and present punch; the follow-through corridor then stabilizes around faint bite and present twang. from the leading edge onward, the meter catches faint ring, faint tang, and faint edge; downstream, the residue writes faint chime and faint zing. the profile opens with present crackle, present sibilance, and faint fizz; once recirculated through the line, it lands at present sheen and faint sparkle. the first pass reports faint glint, faint air, and faint vapor; deeper in the frame, the contour settles into faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_58/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_58/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_58/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_58/looped.json",
+                                              "plot_image":  "data/samples/sample_58/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_59",
+                                              "title":  "Sample 59",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the onset lane shows forceful, sustained, and low-oscillation; the mid-body drift and tail channel answer with snap-onset and aggressive. in spectral cross-section, the chamber resolves evenly-distributed, clipped, and bright; the reflected layer reappears as near-tonal and low-ceiling. initial pressure exposes frozen, gentle-peak, and semi-diffuse; after propagation through the core, the return field carries glass-smooth and unpitched. at entry the envelope carries present rumble, strong thump, and strong boom; through sustain and release, the trace returns strong boxiness and strong honk. the onset lane shows strong quack, present clang, and faint punch; the mid-body drift and tail channel answer with faint bite and faint twang. in spectral cross-section, the chamber resolves faint ring, faint tang, and trace edge; the reflected layer reappears as faint chime and faint zing. initial pressure exposes faint crackle, faint sibilance, and trace fizz; after propagation through the core, the return field carries faint sheen and faint sparkle. at entry the envelope carries faint glint, faint air, and faint vapor; through sustain and release, the trace returns faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_59/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_59/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_59/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_59/looped.json",
+                                              "plot_image":  "data/samples/sample_59/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_60",
+                                              "title":  "Sample 60",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "from the leading edge onward, the meter catches forceful, sustained, and mid-oscillation; downstream, the residue writes snap-onset and aggressive. the profile opens with evenly-distributed, clipped, and bright; once recirculated through the line, it lands at near-tonal and low-ceiling. the first pass reports frozen, gentle-peak, and semi-diffuse; deeper in the frame, the contour settles into glass-smooth and unpitched. diagnostic playback marks present rumble, strong thump, and strong boom; the follow-through corridor then stabilizes around strong boxiness and strong honk. from the leading edge onward, the meter catches strong quack, present clang, and present punch; downstream, the residue writes present bite and faint twang. the profile opens with present ring, present tang, and faint edge; once recirculated through the line, it lands at present chime and faint zing. the first pass reports faint crackle, faint sibilance, and faint fizz; deeper in the frame, the contour settles into faint sheen and faint sparkle. diagnostic playback marks faint glint, faint air, and faint vapor; the follow-through corridor then stabilizes around faint ether, dull, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_60/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_60/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_60/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_60/looped.json",
+                                              "plot_image":  "data/samples/sample_60/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_61",
+                                              "title":  "Sample 61",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "in spectral cross-section, the chamber resolves forceful, sustained, and mid-oscillation; the reflected layer reappears as snap-onset and aggressive. initial pressure exposes evenly-distributed, clipped, and bright; after propagation through the core, the return field carries near-tonal and low-ceiling. at entry the envelope carries frozen, gentle-peak, and semi-diffuse; through sustain and release, the trace returns even-contour and unpitched. the onset lane shows strong rumble, strong thump, and present boom; the mid-body drift and tail channel answer with strong boxiness and strong honk. in spectral cross-section, the chamber resolves strong quack, present clang, and present punch; the reflected layer reappears as faint bite and present twang. initial pressure exposes present ring, present tang, and faint edge; after propagation through the core, the return field carries present chime and faint zing. at entry the envelope carries faint crackle, faint sibilance, and faint fizz; through sustain and release, the trace returns faint sheen and faint sparkle. the onset lane shows faint glint, faint air, and faint vapor; the mid-body drift and tail channel answer with faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_61/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_61/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_61/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_61/looped.json",
+                                              "plot_image":  "data/samples/sample_61/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_62",
+                                              "title":  "Sample 62",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the profile opens with forceful, sustained, and mid-oscillation; once recirculated through the line, it lands at snap-onset and aggressive. the first pass reports evenly-distributed, clipped, and bright; deeper in the frame, the contour settles into near-tonal and low-ceiling. diagnostic playback marks frozen, gentle-peak, and semi-diffuse; the follow-through corridor then stabilizes around glass-smooth and unpitched. from the leading edge onward, the meter catches present rumble, present thump, and strong boom; downstream, the residue writes strong boxiness and strong honk. the profile opens with strong quack, present clang, and faint punch; once recirculated through the line, it lands at faint bite and faint twang. the first pass reports faint ring, faint tang, and faint edge; deeper in the frame, the contour settles into faint chime and faint zing. diagnostic playback marks trace crackle, trace sibilance, and trace fizz; the follow-through corridor then stabilizes around trace sheen and trace sparkle. from the leading edge onward, the meter catches faint glint, trace air, and trace vapor; downstream, the residue writes faint ether, dull, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_62/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_62/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_62/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_62/looped.json",
+                                              "plot_image":  "data/samples/sample_62/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_63",
+                                              "title":  "Sample 63",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "initial pressure exposes forceful, sustained, and mid-oscillation; after propagation through the core, the return field carries snap-onset and aggressive. at entry the envelope carries evenly-distributed, clipped, and warm; through sustain and release, the trace returns pure-tone and low-ceiling. the onset lane shows frozen, gentle-peak, and semi-diffuse; the mid-body drift and tail channel answer with glass-smooth and unpitched. in spectral cross-section, the chamber resolves present rumble, strong thump, and strong boom; the reflected layer reappears as strong boxiness and strong honk. initial pressure exposes strong quack, present clang, and present punch; after propagation through the core, the return field carries present bite and present twang. at entry the envelope carries faint ring, faint tang, and faint edge; through sustain and release, the trace returns faint chime and faint zing. the onset lane shows faint crackle, trace sibilance, and trace fizz; the mid-body drift and tail channel answer with trace sheen and trace sparkle. in spectral cross-section, the chamber resolves trace glint, trace air, and trace vapor; the reflected layer reappears as trace ether, dull, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_63/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_63/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_63/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_63/looped.json",
+                                              "plot_image":  "data/samples/sample_63/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_64",
+                                              "title":  "Sample 64",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the first pass reports forceful, rounded, and low-oscillation; deeper in the frame, the contour settles into swift-onset and measured. diagnostic playback marks front-weighted, staccato, and warm; the follow-through corridor then stabilizes around pure-tone and deep-ceiling. from the leading edge onward, the meter catches volatile, gentle-peak, and ordered; downstream, the residue writes rippled and unpitched. the profile opens with dominant rumble, strong thump, and strong boom; once recirculated through the line, it lands at strong boxiness and present honk. the first pass reports present quack, present clang, and present punch; deeper in the frame, the contour settles into present bite and present twang. diagnostic playback marks present ring, faint tang, and present edge; the follow-through corridor then stabilizes around present chime and present zing. from the leading edge onward, the meter catches faint crackle, faint sibilance, and present fizz; downstream, the residue writes present sheen and present sparkle. the profile opens with present glint, present air, and present vapor; once recirculated through the line, it lands at present ether, mellow, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_64/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_64/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_64/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_64/looped.json",
+                                              "plot_image":  "data/samples/sample_64/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_65",
+                                              "title":  "Sample 65",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries forceful, rounded, and mid-oscillation; through sustain and release, the trace returns swift-onset and aggressive. the onset lane shows evenly-distributed, clipped, and bright; the mid-body drift and tail channel answer with semi-tonal and mid-ceiling. in spectral cross-section, the chamber resolves frozen, gentle-peak, and diffuse; the reflected layer reappears as glass-smooth and unpitched. initial pressure exposes present rumble, strong thump, and strong boom; after propagation through the core, the return field carries strong boxiness and strong honk. at entry the envelope carries present quack, present clang, and present punch; through sustain and release, the trace returns present bite and present twang. the onset lane shows present ring, present tang, and present edge; the mid-body drift and tail channel answer with faint chime and present zing. in spectral cross-section, the chamber resolves present crackle, present sibilance, and present fizz; the reflected layer reappears as present sheen and present sparkle. initial pressure exposes present glint, present air, and present vapor; after propagation through the core, the return field carries present ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_65/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_65/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_65/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_65/looped.json",
+                                              "plot_image":  "data/samples/sample_65/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_66",
+                                              "title":  "Sample 66",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks forceful, rounded, and mid-oscillation; the follow-through corridor then stabilizes around swift-onset and aggressive. from the leading edge onward, the meter catches evenly-distributed, clipped, and bright; downstream, the residue writes semi-tonal and mid-ceiling. the profile opens with frozen, gentle-peak, and semi-diffuse; once recirculated through the line, it lands at glass-smooth and unpitched. the first pass reports present rumble, strong thump, and strong boom; deeper in the frame, the contour settles into strong boxiness and strong honk. diagnostic playback marks present quack, present clang, and present punch; the follow-through corridor then stabilizes around present bite and present twang. from the leading edge onward, the meter catches present ring, present tang, and present edge; downstream, the residue writes faint chime and faint zing. the profile opens with present crackle, present sibilance, and present fizz; once recirculated through the line, it lands at present sheen and present sparkle. the first pass reports present glint, present air, and present vapor; deeper in the frame, the contour settles into present ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_66/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_66/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_66/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_66/looped.json",
+                                              "plot_image":  "data/samples/sample_66/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_67",
+                                              "title":  "Sample 67",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the onset lane shows forceful, sustained, and low-oscillation; the mid-body drift and tail channel answer with swift-onset and aggressive. in spectral cross-section, the chamber resolves evenly-distributed, clipped, and bright; the reflected layer reappears as semi-tonal and low-ceiling. initial pressure exposes frozen, gentle-peak, and semi-diffuse; after propagation through the core, the return field carries glass-smooth and unpitched. at entry the envelope carries strong rumble, strong thump, and strong boom; through sustain and release, the trace returns strong boxiness and strong honk. the onset lane shows present quack, present clang, and strong punch; the mid-body drift and tail channel answer with present bite and present twang. in spectral cross-section, the chamber resolves present ring, present tang, and present edge; the reflected layer reappears as present chime and present zing. initial pressure exposes present crackle, present sibilance, and present fizz; after propagation through the core, the return field carries present sheen and present sparkle. at entry the envelope carries faint glint, present air, and present vapor; through sustain and release, the trace returns present ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_67/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_67/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_67/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_67/looped.json",
+                                              "plot_image":  "data/samples/sample_67/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_68",
+                                              "title":  "Sample 68",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "from the leading edge onward, the meter catches forceful, rounded, and low-oscillation; downstream, the residue writes swift-onset and measured. the profile opens with evenly-distributed, clipped, and bright; once recirculated through the line, it lands at semi-tonal and mid-ceiling. the first pass reports frozen, gentle-peak, and semi-diffuse; deeper in the frame, the contour settles into glass-smooth and unpitched. diagnostic playback marks strong rumble, strong thump, and strong boom; the follow-through corridor then stabilizes around strong boxiness and present honk. from the leading edge onward, the meter catches present quack, present clang, and present punch; downstream, the residue writes present bite and present twang. the profile opens with present ring, present tang, and present edge; once recirculated through the line, it lands at present chime and present zing. the first pass reports present crackle, present sibilance, and present fizz; deeper in the frame, the contour settles into present sheen and present sparkle. diagnostic playback marks present glint, present air, and present vapor; the follow-through corridor then stabilizes around present ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_68/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_68/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_68/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_68/looped.json",
+                                              "plot_image":  "data/samples/sample_68/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_69",
+                                              "title":  "Sample 69",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "in spectral cross-section, the chamber resolves forceful, rounded, and low-oscillation; the reflected layer reappears as swift-onset and measured. initial pressure exposes evenly-distributed, clipped, and brilliant; after propagation through the core, the return field carries semi-tonal and mid-ceiling. at entry the envelope carries frozen, gentle-peak, and diffuse; through sustain and release, the trace returns glass-smooth and unpitched. the onset lane shows strong rumble, strong thump, and strong boom; the mid-body drift and tail channel answer with strong boxiness and strong honk. in spectral cross-section, the chamber resolves present quack, present clang, and present punch; the reflected layer reappears as strong bite and strong twang. initial pressure exposes present ring, present tang, and present edge; after propagation through the core, the return field carries present chime and present zing. at entry the envelope carries present crackle, present sibilance, and present fizz; through sustain and release, the trace returns present sheen and present sparkle. the onset lane shows present glint, present air, and present vapor; the mid-body drift and tail channel answer with present ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_69/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_69/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_69/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_69/looped.json",
+                                              "plot_image":  "data/samples/sample_69/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_70",
+                                              "title":  "Sample 70",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the profile opens with forceful, rounded, and mid-oscillation; once recirculated through the line, it lands at swift-onset and measured. the first pass reports evenly-distributed, clipped, and bright; deeper in the frame, the contour settles into semi-tonal and mid-ceiling. diagnostic playback marks frozen, gentle-peak, and diffuse; the follow-through corridor then stabilizes around glass-smooth and unpitched. from the leading edge onward, the meter catches strong rumble, strong thump, and strong boom; downstream, the residue writes strong boxiness and strong honk. the profile opens with strong quack, present clang, and present punch; once recirculated through the line, it lands at strong bite and strong twang. the first pass reports strong ring, present tang, and present edge; deeper in the frame, the contour settles into present chime and present zing. diagnostic playback marks present crackle, present sibilance, and present fizz; the follow-through corridor then stabilizes around present sheen and present sparkle. from the leading edge onward, the meter catches present glint, present air, and present vapor; downstream, the residue writes present ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_70/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_70/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_70/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_70/looped.json",
+                                              "plot_image":  "data/samples/sample_70/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_71",
+                                              "title":  "Sample 71",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "initial pressure exposes forceful, rounded, and low-oscillation; after propagation through the core, the return field carries swift-onset and measured. at entry the envelope carries evenly-distributed, clipped, and bright; through sustain and release, the trace returns semi-tonal and mid-ceiling. the onset lane shows frozen, gentle-peak, and semi-diffuse; the mid-body drift and tail channel answer with glass-smooth and unpitched. in spectral cross-section, the chamber resolves strong rumble, strong thump, and strong boom; the reflected layer reappears as strong boxiness and present honk. initial pressure exposes present quack, present clang, and present punch; after propagation through the core, the return field carries present bite and present twang. at entry the envelope carries present ring, present tang, and present edge; through sustain and release, the trace returns present chime and present zing. the onset lane shows present crackle, present sibilance, and present fizz; the mid-body drift and tail channel answer with present sheen and present sparkle. in spectral cross-section, the chamber resolves present glint, present air, and present vapor; the reflected layer reappears as present ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_71/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_71/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_71/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_71/looped.json",
+                                              "plot_image":  "data/samples/sample_71/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_72",
+                                              "title":  "Sample 72",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the first pass reports mid-power, punchy, and extreme-oscillation; deeper in the frame, the contour settles into swift-onset and measured. diagnostic playback marks evenly-distributed, clipped, and sizzling; the follow-through corridor then stabilizes around noise-heavy and open-ceiling. from the leading edge onward, the meter catches drifting, flat-topped, and diffuse; downstream, the residue writes even-contour and unpitched. the profile opens with strong rumble, present thump, and faint boom; once recirculated through the line, it lands at faint boxiness and faint honk. the first pass reports faint quack, faint clang, and faint punch; deeper in the frame, the contour settles into faint bite and faint twang. diagnostic playback marks faint ring, faint tang, and faint edge; the follow-through corridor then stabilizes around faint chime and faint zing. from the leading edge onward, the meter catches faint crackle, present sibilance, and present fizz; downstream, the residue writes present sheen and strong sparkle. the profile opens with present glint, present air, and strong vapor; once recirculated through the line, it lands at strong ether, cutting, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_72/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_72/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_72/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_72/looped.json",
+                                              "plot_image":  "data/samples/sample_72/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_73",
+                                              "title":  "Sample 73",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries mid-power, punchy, and extreme-oscillation; through sustain and release, the trace returns moderate-onset and measured. the onset lane shows front-weighted, staccato, and sizzling; the mid-body drift and tail channel answer with noise-heavy and open-ceiling. in spectral cross-section, the chamber resolves surging, flat-topped, and diffuse; the reflected layer reappears as even-contour and unpitched. initial pressure exposes present rumble, present thump, and strong boom; after propagation through the core, the return field carries dominant boxiness and strong honk. at entry the envelope carries strong quack, strong clang, and strong punch; through sustain and release, the trace returns strong bite and present twang. the onset lane shows present ring, present tang, and present edge; the mid-body drift and tail channel answer with present chime and present zing. in spectral cross-section, the chamber resolves present crackle, present sibilance, and present fizz; the reflected layer reappears as strong sheen and strong sparkle. initial pressure exposes strong glint, strong air, and strong vapor; after propagation through the core, the return field carries dominant ether, keen, and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_73/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_73/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_73/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_73/looped.json",
+                                              "plot_image":  "data/samples/sample_73/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_74",
+                                              "title":  "Sample 74",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks forceful, sustained, and mid-oscillation; the follow-through corridor then stabilizes around swift-onset and aggressive. from the leading edge onward, the meter catches evenly-distributed, clipped, and bright; downstream, the residue writes semi-tonal and mid-ceiling. the profile opens with frozen, gentle-peak, and semi-diffuse; once recirculated through the line, it lands at glass-smooth and unpitched. the first pass reports present rumble, strong thump, and strong boom; deeper in the frame, the contour settles into present boxiness and present honk. diagnostic playback marks present quack, present clang, and strong punch; the follow-through corridor then stabilizes around strong bite and present twang. from the leading edge onward, the meter catches faint ring, faint tang, and present edge; downstream, the residue writes present chime and faint zing. the profile opens with faint crackle, present sibilance, and present fizz; once recirculated through the line, it lands at present sheen and faint sparkle. the first pass reports faint glint, faint air, and faint vapor; deeper in the frame, the contour settles into faint ether, mellow, and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_74/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_74/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_74/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_74/looped.json",
+                                              "plot_image":  "data/samples/sample_74/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_75",
+                                              "title":  "Sample 75",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the onset lane shows mid-power, punchy, and high-oscillation; the mid-body drift and tail channel answer with snap-onset and aggressive. in spectral cross-section, the chamber resolves front-weighted, staccato, and brilliant; the reflected layer reappears as noise-heavy and high-ceiling. initial pressure exposes drifting, flat-topped, and diffuse; after propagation through the core, the return field carries rippled and unpitched. at entry the envelope carries faint rumble, present thump, and present boom; through sustain and release, the trace returns present boxiness and strong honk. the onset lane shows dominant quack, strong clang, and present punch; the mid-body drift and tail channel answer with present bite and present twang. in spectral cross-section, the chamber resolves present ring, present tang, and present edge; the reflected layer reappears as present chime and strong zing. initial pressure exposes strong crackle, strong sibilance, and present fizz; after propagation through the core, the return field carries present sheen and strong sparkle. at entry the envelope carries strong glint, strong air, and strong vapor; through sustain and release, the trace returns strong ether, keen, and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_75/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_75/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_75/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_75/looped.json",
+                                              "plot_image":  "data/samples/sample_75/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_76",
+                                              "title":  "Sample 76",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "in spectral cross-section, the chamber resolves hushed, impulsive, and high-oscillation; the reflected layer reappears as creeping-onset and feathered. initial pressure exposes centered, short-decay, and bright; after propagation through the core, the return field carries semi-tonal and mid-ceiling. at entry the envelope carries frozen, gentle-peak, and diffuse; through sustain and release, the trace returns even-contour and unpitched. the onset lane shows faint rumble, faint thump, and faint boom; the mid-body drift and tail channel answer with faint boxiness and faint honk. in spectral cross-section, the chamber resolves faint quack, faint clang, and faint punch; the reflected layer reappears as faint bite and present twang. initial pressure exposes present ring, present tang, and present edge; after propagation through the core, the return field carries strong chime and present zing. at entry the envelope carries strong crackle, strong sibilance, and strong fizz; through sustain and release, the trace returns strong sheen and strong sparkle. the onset lane shows present glint, present air, and present vapor; the mid-body drift and tail channel answer with present ether, keen, and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_76/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_76/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_76/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_76/looped.json",
+                                              "plot_image":  "data/samples/sample_76/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_77",
+                                              "title":  "Sample 77",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the profile opens with hushed, punchy, and high-oscillation; once recirculated through the line, it lands at creeping-onset and feathered. the first pass reports evenly-distributed, short-decay, and brilliant; deeper in the frame, the contour settles into semi-tonal and high-ceiling. diagnostic playback marks frozen, gentle-peak, and semi-diffuse; the follow-through corridor then stabilizes around serrated and aloft fa heart. from the leading edge onward, the meter catches hazy, slightly-detuned, and balanced-fundamental; downstream, the residue writes present-body and sparse-overtones. the profile opens with odd-heavy, faint rumble, and faint thump; once recirculated through the line, it lands at faint boom and faint boxiness. the first pass reports faint honk, faint quack, and faint clang; deeper in the frame, the contour settles into strong punch and present bite. diagnostic playback marks faint twang, faint ring, and faint tang; the follow-through corridor then stabilizes around strong edge and faint chime. from the leading edge onward, the meter catches strong zing, faint crackle, and strong sibilance; downstream, the residue writes present fizz and present sheen. the profile opens with present sparkle, strong glint, and strong air; once recirculated through the line, it lands at present vapor and present ether. the first pass reports keen and abrasive; deeper in the frame, the contour settles into keen and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_77/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_77/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_77/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_77/looped.json",
+                                              "plot_image":  "data/samples/sample_77/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_78",
+                                              "title":  "Sample 78",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "initial pressure exposes mid-power, rounded, and high-oscillation; after propagation through the core, the return field carries creeping-onset and feathered. at entry the envelope carries evenly-distributed, lingering, and brilliant; through sustain and release, the trace returns semi-tonal and mid-ceiling. the onset lane shows drifting, flat-topped, and ordered; the mid-body drift and tail channel answer with comb-like and aloft di heart. in spectral cross-section, the chamber resolves limpid, finely-tuned, and balanced-fundamental; the reflected layer reappears as present-body and sparse-overtones. initial pressure exposes odd-leaning, faint rumble, and faint thump; after propagation through the core, the return field carries faint boom and faint boxiness. at entry the envelope carries present honk, present quack, and strong clang; through sustain and release, the trace returns present punch and faint bite. the onset lane shows present twang, strong ring, and present tang; the mid-body drift and tail channel answer with faint edge and strong chime. in spectral cross-section, the chamber resolves present zing, strong crackle, and present sibilance; the reflected layer reappears as present fizz and present sheen. initial pressure exposes strong sparkle, present glint, and present air; after propagation through the core, the return field carries strong vapor and strong ether. at entry the envelope carries keen and abrasive; through sustain and release, the trace returns keen and abrasive.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_78/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_78/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_78/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_78/looped.json",
+                                              "plot_image":  "data/samples/sample_78/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_79",
+                                              "title":  "Sample 79",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the first pass reports forceful, rounded, and high-oscillation; deeper in the frame, the contour settles into creeping-onset and feathered. diagnostic playback marks evenly-distributed, short-decay, and brilliant; the follow-through corridor then stabilizes around near-tonal and mid-ceiling. from the leading edge onward, the meter catches drifting, gentle-peak, and semi-diffuse; downstream, the residue writes comb-like and aloft fa shadow. the profile opens with limpid, finely-tuned, and solo-fundamental; once recirculated through the line, it lands at thin-body and bare-upper. the first pass reports fundamentals-only, present rumble, and present thump; deeper in the frame, the contour settles into strong boom and present boxiness. diagnostic playback marks strong honk, present quack, and strong clang; the follow-through corridor then stabilizes around dominant punch and present bite. from the leading edge onward, the meter catches strong twang, strong ring, and dominant tang; downstream, the residue writes strong edge and strong chime. the profile opens with dominant zing, dominant crackle, and strong sibilance; once recirculated through the line, it lands at strong fizz and strong sheen. the first pass reports strong sparkle, strong glint, and strong air; deeper in the frame, the contour settles into strong vapor and present ether. diagnostic playback marks keen and abrasive; the follow-through corridor then stabilizes around keen and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_79/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_79/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_79/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_79/looped.json",
+                                              "plot_image":  "data/samples/sample_79/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_80",
+                                              "title":  "Sample 80",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries mid-power, punchy, and high-oscillation; through sustain and release, the trace returns creeping-onset and feathered. the onset lane shows evenly-distributed, lingering, and brilliant; the mid-body drift and tail channel answer with near-tonal and mid-ceiling. in spectral cross-section, the chamber resolves drifting, gentle-peak, and semi-diffuse; the reflected layer reappears as serrated and aloft si crown. initial pressure exposes limpid, finely-tuned, and solo-fundamental; after propagation through the core, the return field carries hollow-body and bare-upper. at entry the envelope carries fundamentals-only, trace rumble, and trace thump; through sustain and release, the trace returns trace boom and trace boxiness. the onset lane shows trace honk, trace quack, and faint clang; the mid-body drift and tail channel answer with faint punch and strong bite. in spectral cross-section, the chamber resolves present twang, faint ring, and faint tang; the reflected layer reappears as faint edge and present chime. initial pressure exposes faint zing, present crackle, and present sibilance; after propagation through the core, the return field carries strong fizz and strong sheen. at entry the envelope carries present sparkle, present glint, and present air; through sustain and release, the trace returns present vapor and present ether. the onset lane shows keen and abrasive; the mid-body drift and tail channel answer with keen and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_80/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_80/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_80/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_80/looped.json",
+                                              "plot_image":  "data/samples/sample_80/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_81",
+                                              "title":  "Sample 81",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks forceful, rounded, and mid-oscillation; the follow-through corridor then stabilizes around creeping-onset and feathered. from the leading edge onward, the meter catches centered, lingering, and bright; downstream, the residue writes near-tonal and mid-ceiling. the profile opens with surging, gentle-peak, and ordered; once recirculated through the line, it lands at serrated and lumen ri shadow. the first pass reports limpid, finely-tuned, and balanced-fundamental; deeper in the frame, the contour settles into lush-body and sparse-overtones. diagnostic playback marks odd-leaning, present rumble, and present thump; the follow-through corridor then stabilizes around present boom and dominant boxiness. from the leading edge onward, the meter catches strong honk, present quack, and strong clang; downstream, the residue writes dominant punch and present bite. the profile opens with strong twang, faint ring, and strong tang; once recirculated through the line, it lands at strong edge and strong chime. the first pass reports strong zing, strong crackle, and present sibilance; deeper in the frame, the contour settles into strong fizz and present sheen. diagnostic playback marks present sparkle, present glint, and present air; the follow-through corridor then stabilizes around present vapor and present ether. from the leading edge onward, the meter catches mellow and abrasive; downstream, the residue writes mellow and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_81/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_81/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_81/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_81/looped.json",
+                                              "plot_image":  "data/samples/sample_81/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_82",
+                                              "title":  "Sample 82",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the onset lane shows mid-power, punchy, and extreme-oscillation; the mid-body drift and tail channel answer with creeping-onset and feathered. in spectral cross-section, the chamber resolves evenly-distributed, clipped, and sizzling; the reflected layer reappears as noise-heavy and open-ceiling. initial pressure exposes volatile, flat-topped, and chaotic; after propagation through the core, the return field carries even-contour and unpitched. at entry the envelope carries faint rumble, present thump, and present boom; through sustain and release, the trace returns faint boxiness and present honk. the onset lane shows faint quack, faint clang, and faint punch; the mid-body drift and tail channel answer with faint bite and faint twang. in spectral cross-section, the chamber resolves faint ring, faint tang, and faint edge; the reflected layer reappears as faint chime and faint zing. initial pressure exposes faint crackle, faint sibilance, and present fizz; after propagation through the core, the return field carries present sheen and present sparkle. at entry the envelope carries present glint, present air, and strong vapor; through sustain and release, the trace returns strong ether, cutting, and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_82/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_82/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_82/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_82/looped.json",
+                                              "plot_image":  "data/samples/sample_82/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_83",
+                                              "title":  "Sample 83",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "from the leading edge onward, the meter catches forceful, rounded, and mid-oscillation; downstream, the residue writes swift-onset and measured. the profile opens with front-loaded, clipped, and bright; once recirculated through the line, it lands at semi-tonal and low-ceiling. the first pass reports volatile, flat-topped, and semi-diffuse; deeper in the frame, the contour settles into even-contour and unpitched. diagnostic playback marks dominant rumble, dominant thump, and dominant boom; the follow-through corridor then stabilizes around dominant boxiness and strong honk. from the leading edge onward, the meter catches present quack, present clang, and present punch; downstream, the residue writes present bite and present twang. the profile opens with present ring, present tang, and present edge; once recirculated through the line, it lands at present chime and present zing. the first pass reports present crackle, present sibilance, and present fizz; deeper in the frame, the contour settles into present sheen and present sparkle. diagnostic playback marks present glint, present air, and present vapor; the follow-through corridor then stabilizes around strong ether, mellow, and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_83/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_83/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_83/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_83/looped.json",
+                                              "plot_image":  "data/samples/sample_83/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_84",
+                                              "title":  "Sample 84",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "in spectral cross-section, the chamber resolves mid-power, punchy, and mid-oscillation; the reflected layer reappears as swift-onset and measured. initial pressure exposes front-weighted, clipped, and brilliant; after propagation through the core, the return field carries semi-tonal and low-ceiling. at entry the envelope carries surging, flat-topped, and semi-diffuse; through sustain and release, the trace returns even-contour and unpitched. the onset lane shows strong rumble, dominant thump, and dominant boom; the mid-body drift and tail channel answer with strong boxiness and present honk. in spectral cross-section, the chamber resolves present quack, present clang, and present punch; the reflected layer reappears as present bite and present twang. initial pressure exposes present ring, present tang, and present edge; after propagation through the core, the return field carries present chime and present zing. at entry the envelope carries present crackle, present sibilance, and present fizz; through sustain and release, the trace returns present sheen and present sparkle. the onset lane shows strong glint, present air, and present vapor; the mid-body drift and tail channel answer with strong ether, mellow, and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_84/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_84/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_84/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_84/looped.json",
+                                              "plot_image":  "data/samples/sample_84/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_85",
+                                              "title":  "Sample 85",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the profile opens with mid-power, punchy, and extreme-oscillation; once recirculated through the line, it lands at gradual-onset and feathered. the first pass reports centered, short-decay, and brilliant; deeper in the frame, the contour settles into noise-heavy and open-ceiling. diagnostic playback marks churning, flat-topped, and diffuse; the follow-through corridor then stabilizes around even-contour and unpitched. from the leading edge onward, the meter catches faint rumble, faint thump, and faint boom; downstream, the residue writes faint boxiness and faint honk. the profile opens with faint quack, present clang, and present punch; once recirculated through the line, it lands at present bite and present twang. the first pass reports present ring, present tang, and present edge; deeper in the frame, the contour settles into present chime and present zing. diagnostic playback marks present crackle, present sibilance, and strong fizz; the follow-through corridor then stabilizes around strong sheen and strong sparkle. from the leading edge onward, the meter catches dominant glint, dominant air, and dominant vapor; downstream, the residue writes dominant ether, cutting, and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_85/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_85/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_85/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_85/looped.json",
+                                              "plot_image":  "data/samples/sample_85/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_86",
+                                              "title":  "Sample 86",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "initial pressure exposes hushed, spiky, and extreme-oscillation; after propagation through the core, the return field carries snap-onset and explosive. at entry the envelope carries front-loaded, clipped, and sizzling; through sustain and release, the trace returns noise-heavy and open-ceiling. the onset lane shows frozen, flat-topped, and chaotic; the mid-body drift and tail channel answer with even-contour and unpitched. in spectral cross-section, the chamber resolves faint rumble, faint thump, and faint boom; the reflected layer reappears as faint boxiness and trace honk. initial pressure exposes faint quack, faint clang, and trace punch; after propagation through the core, the return field carries faint bite and trace twang. at entry the envelope carries faint ring, faint tang, and faint edge; through sustain and release, the trace returns faint chime and faint zing. the onset lane shows faint crackle, faint sibilance, and faint fizz; the mid-body drift and tail channel answer with faint sheen and faint sparkle. in spectral cross-section, the chamber resolves present glint, present air, and present vapor; the reflected layer reappears as present ether, cutting, and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_86/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_86/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_86/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_86/looped.json",
+                                              "plot_image":  "data/samples/sample_86/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_87",
+                                              "title":  "Sample 87",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the first pass reports mid-power, punchy, and extreme-oscillation; deeper in the frame, the contour settles into snap-onset and explosive. diagnostic playback marks centered, short-decay, and brilliant; the follow-through corridor then stabilizes around noise-heavy and high-ceiling. from the leading edge onward, the meter catches surging, flat-topped, and diffuse; downstream, the residue writes even-contour and unpitched. the profile opens with present rumble, dominant thump, and strong boom; once recirculated through the line, it lands at strong boxiness and present honk. the first pass reports present quack, present clang, and present punch; deeper in the frame, the contour settles into present bite and present twang. diagnostic playback marks strong ring, strong tang, and strong edge; the follow-through corridor then stabilizes around strong chime and strong zing. from the leading edge onward, the meter catches dominant crackle, strong sibilance, and strong fizz; downstream, the residue writes strong sheen and strong sparkle. the profile opens with strong glint, dominant air, and dominant vapor; once recirculated through the line, it lands at dominant ether, keen, and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_87/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_87/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_87/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_87/looped.json",
+                                              "plot_image":  "data/samples/sample_87/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_88",
+                                              "title":  "Sample 88",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries mid-power, impulsive, and extreme-oscillation; through sustain and release, the trace returns snap-onset and explosive. the onset lane shows front-loaded, clipped, and sizzling; the mid-body drift and tail channel answer with noise-heavy and open-ceiling. in spectral cross-section, the chamber resolves drifting, flat-topped, and diffuse; the reflected layer reappears as rippled and unpitched. initial pressure exposes faint rumble, faint thump, and faint boom; after propagation through the core, the return field carries faint boxiness and faint honk. at entry the envelope carries faint quack, faint clang, and faint punch; through sustain and release, the trace returns present bite and strong twang. the onset lane shows strong ring, present tang, and present edge; the mid-body drift and tail channel answer with present chime and present zing. in spectral cross-section, the chamber resolves present crackle, present sibilance, and present fizz; the reflected layer reappears as present sheen and present sparkle. initial pressure exposes present glint, present air, and strong vapor; after propagation through the core, the return field carries strong ether, cutting, and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_88/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_88/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_88/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_88/looped.json",
+                                              "plot_image":  "data/samples/sample_88/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_89",
+                                              "title":  "Sample 89",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks mid-power, impulsive, and extreme-oscillation; the follow-through corridor then stabilizes around swift-onset and measured. from the leading edge onward, the meter catches front-loaded, clipped, and sizzling; downstream, the residue writes noise-heavy and open-ceiling. the profile opens with drifting, flat-topped, and semi-diffuse; once recirculated through the line, it lands at rippled and unpitched. the first pass reports faint rumble, faint thump, and faint boom; deeper in the frame, the contour settles into present boxiness and present honk. diagnostic playback marks dominant quack, dominant clang, and present punch; the follow-through corridor then stabilizes around present bite and present twang. from the leading edge onward, the meter catches present ring, present tang, and present edge; downstream, the residue writes present chime and faint zing. the profile opens with present crackle, present sibilance, and faint fizz; once recirculated through the line, it lands at present sheen and present sparkle. the first pass reports present glint, present air, and strong vapor; deeper in the frame, the contour settles into strong ether, keen, and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_89/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_89/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_89/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_89/looped.json",
+                                              "plot_image":  "data/samples/sample_89/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_90",
+                                              "title":  "Sample 90",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "from the leading edge onward, the meter catches mid-power, punchy, and high-oscillation; downstream, the residue writes moderate-onset and feathered. the profile opens with front-weighted, staccato, and bright; once recirculated through the line, it lands at near-tonal and mid-ceiling. the first pass reports drifting, gentle-peak, and ordered; deeper in the frame, the contour settles into serrated and crystal di shadow. diagnostic playback marks pristine, finely-tuned, and dominant-fundamental; the follow-through corridor then stabilizes around thin-body and sparse-overtones. from the leading edge onward, the meter catches fundamentals-only, faint rumble, and faint thump; downstream, the residue writes faint boom and faint boxiness. the profile opens with present honk, present quack, and present clang; once recirculated through the line, it lands at present punch and present bite. the first pass reports present twang, dominant ring, and present tang; deeper in the frame, the contour settles into present edge and faint chime. diagnostic playback marks faint zing, strong crackle, and faint sibilance; the follow-through corridor then stabilizes around strong fizz and faint sheen. from the leading edge onward, the meter catches present sparkle, present glint, and faint air; downstream, the residue writes present vapor and present ether. the profile opens with keen and abrasive; once recirculated through the line, it lands at keen and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_90/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_90/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_90/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_90/looped.json",
+                                              "plot_image":  "data/samples/sample_90/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_91",
+                                              "title":  "Sample 91",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "in spectral cross-section, the chamber resolves hushed, spiky, and extreme-oscillation; the reflected layer reappears as snap-onset and explosive. initial pressure exposes centered, staccato, and sizzling; after propagation through the core, the return field carries noise-heavy and open-ceiling. at entry the envelope carries frozen, flat-topped, and diffuse; through sustain and release, the trace returns rippled and unpitched. the onset lane shows trace rumble, trace thump, and trace boom; the mid-body drift and tail channel answer with trace boxiness and trace honk. in spectral cross-section, the chamber resolves faint quack, faint clang, and faint punch; the reflected layer reappears as faint bite and faint twang. initial pressure exposes faint ring, faint tang, and faint edge; after propagation through the core, the return field carries faint chime and faint zing. at entry the envelope carries faint crackle, faint sibilance, and faint fizz; through sustain and release, the trace returns present sheen and present sparkle. the onset lane shows present glint, strong air, and present vapor; the mid-body drift and tail channel answer with strong ether, cutting, and textured. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_91/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_91/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_91/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_91/looped.json",
+                                              "plot_image":  "data/samples/sample_91/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_92",
+                                              "title":  "Sample 92",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the profile opens with forceful, sustained, and mid-oscillation; once recirculated through the line, it lands at snap-onset and aggressive. the first pass reports front-loaded, lingering, and bright; deeper in the frame, the contour settles into near-tonal and low-ceiling. diagnostic playback marks volatile, gentle-peak, and ordered; the follow-through corridor then stabilizes around serrated and middle ti shadow. from the leading edge onward, the meter catches limpid, finely-tuned, and balanced-fundamental; downstream, the residue writes lush-body and sparse-overtones. the profile opens with odd-leaning, strong rumble, and strong thump; once recirculated through the line, it lands at dominant boom and dominant boxiness. the first pass reports strong honk, dominant quack, and strong clang; deeper in the frame, the contour settles into dominant punch and strong bite. diagnostic playback marks strong twang, present ring, and strong tang; the follow-through corridor then stabilizes around strong edge and strong chime. from the leading edge onward, the meter catches strong zing, present crackle, and strong sibilance; downstream, the residue writes present fizz and present sheen. the profile opens with present sparkle, present glint, and present air; once recirculated through the line, it lands at present vapor and strong ether. the first pass reports mellow and textured; deeper in the frame, the contour settles into mellow and textured. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_92/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_92/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_92/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_92/looped.json",
+                                              "plot_image":  "data/samples/sample_92/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_93",
+                                              "title":  "Sample 93",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "initial pressure exposes mid-power, impulsive, and extreme-oscillation; after propagation through the core, the return field carries gradual-onset and feathered. at entry the envelope carries centered, staccato, and brilliant; through sustain and release, the trace returns semi-tonal and high-ceiling. the onset lane shows churning, flat-topped, and diffuse; the mid-body drift and tail channel answer with rippled and unpitched. in spectral cross-section, the chamber resolves faint rumble, faint thump, and faint boom; the reflected layer reappears as faint boxiness and faint honk. initial pressure exposes present quack, faint clang, and present punch; after propagation through the core, the return field carries strong bite and present twang. at entry the envelope carries faint ring, present tang, and present edge; through sustain and release, the trace returns strong chime and present zing. the onset lane shows strong crackle, present sibilance, and present fizz; the mid-body drift and tail channel answer with strong sheen and dominant sparkle. in spectral cross-section, the chamber resolves strong glint, strong air, and strong vapor; the reflected layer reappears as strong ether, cutting, and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_93/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_93/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_93/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_93/looped.json",
+                                              "plot_image":  "data/samples/sample_93/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_94",
+                                              "title":  "Sample 94",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the first pass reports mid-power, punchy, and high-oscillation; deeper in the frame, the contour settles into snap-onset and explosive. diagnostic playback marks front-weighted, staccato, and brilliant; the follow-through corridor then stabilizes around semi-tonal and high-ceiling. from the leading edge onward, the meter catches drifting, gentle-peak, and semi-diffuse; downstream, the residue writes rippled and unpitched. the profile opens with faint rumble, faint thump, and faint boom; once recirculated through the line, it lands at faint boxiness and faint honk. the first pass reports faint quack, faint clang, and faint punch; deeper in the frame, the contour settles into faint bite and faint twang. diagnostic playback marks faint ring, faint tang, and faint edge; the follow-through corridor then stabilizes around strong chime and faint zing. from the leading edge onward, the meter catches strong crackle, strong sibilance, and dominant fizz; downstream, the residue writes strong sheen and strong sparkle. the profile opens with strong glint, strong air, and present vapor; once recirculated through the line, it lands at present ether, keen, and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_94/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_94/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_94/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_94/looped.json",
+                                              "plot_image":  "data/samples/sample_94/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_95",
+                                              "title":  "Sample 95",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries mid-power, punchy, and extreme-oscillation; through sustain and release, the trace returns creeping-onset and feathered. the onset lane shows centered, staccato, and brilliant; the mid-body drift and tail channel answer with semi-tonal and high-ceiling. in spectral cross-section, the chamber resolves churning, gentle-peak, and semi-diffuse; the reflected layer reappears as rippled and unpitched. initial pressure exposes faint rumble, faint thump, and faint boom; after propagation through the core, the return field carries faint boxiness and faint honk. at entry the envelope carries faint quack, faint clang, and present punch; through sustain and release, the trace returns present bite and faint twang. the onset lane shows faint ring, present tang, and present edge; the mid-body drift and tail channel answer with strong chime and present zing. in spectral cross-section, the chamber resolves present crackle, dominant sibilance, and strong fizz; the reflected layer reappears as strong sheen and strong sparkle. initial pressure exposes strong glint, strong air, and strong vapor; after propagation through the core, the return field carries strong ether, keen, and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_95/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_95/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_95/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_95/looped.json",
+                                              "plot_image":  "data/samples/sample_95/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_96",
+                                              "title":  "Sample 96",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks forceful, sustained, and high-oscillation; the follow-through corridor then stabilizes around gradual-onset and feathered. from the leading edge onward, the meter catches front-weighted, staccato, and brilliant; downstream, the residue writes near-tonal and mid-ceiling. the profile opens with churning, gentle-peak, and ordered; once recirculated through the line, it lands at serrated and crystal fi heart. the first pass reports pristine, finely-tuned, and solo-fundamental; deeper in the frame, the contour settles into hollow-body and sparse-overtones. diagnostic playback marks fundamentals-only, faint rumble, and faint thump; the follow-through corridor then stabilizes around faint boom and faint boxiness. from the leading edge onward, the meter catches faint honk, faint quack, and faint clang; downstream, the residue writes faint punch and present bite. the profile opens with present twang, present ring, and present tang; once recirculated through the line, it lands at dominant edge and present chime. the first pass reports present zing, faint crackle, and faint sibilance; deeper in the frame, the contour settles into faint fizz and faint sheen. diagnostic playback marks strong sparkle, faint glint, and present air; the follow-through corridor then stabilizes around faint vapor and present ether. from the leading edge onward, the meter catches keen and abrasive; downstream, the residue writes keen and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_96/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_96/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_96/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_96/looped.json",
+                                              "plot_image":  "data/samples/sample_96/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_97",
+                                              "title":  "Sample 97",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the onset lane shows hushed, impulsive, and high-oscillation; the mid-body drift and tail channel answer with snap-onset and explosive. in spectral cross-section, the chamber resolves front-weighted, staccato, and brilliant; the reflected layer reappears as semi-tonal and mid-ceiling. initial pressure exposes frozen, gentle-peak, and semi-diffuse; after propagation through the core, the return field carries rippled and lumen si crown. at entry the envelope carries limpid, finely-tuned, and recessed-fundamental; through sustain and release, the trace returns lush-body and moderate-overtones. the onset lane shows balanced-parity, faint rumble, and faint thump; the mid-body drift and tail channel answer with trace boom and faint boxiness. in spectral cross-section, the chamber resolves faint honk, strong quack, and faint clang; the reflected layer reappears as faint punch and present bite. initial pressure exposes strong twang, faint ring, and strong tang; after propagation through the core, the return field carries present edge and strong chime. at entry the envelope carries present zing, strong crackle, and strong sibilance; through sustain and release, the trace returns present fizz and present sheen. the onset lane shows present sparkle, present glint, and present air; the mid-body drift and tail channel answer with present vapor and present ether. in spectral cross-section, the chamber resolves keen and abrasive; the reflected layer reappears as keen and abrasive. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_97/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_97/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_97/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_97/looped.json",
+                                              "plot_image":  "data/samples/sample_97/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_98",
+                                              "title":  "Sample 98",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "from the leading edge onward, the meter catches mid-power, punchy, and high-oscillation; downstream, the residue writes swift-onset and measured. the profile opens with evenly-distributed, clipped, and bright; once recirculated through the line, it lands at near-tonal and mid-ceiling. the first pass reports surging, gentle-peak, and semi-diffuse; deeper in the frame, the contour settles into rippled and lumen do heart. diagnostic playback marks limpid, finely-tuned, and recessed-fundamental; the follow-through corridor then stabilizes around present-body and rich-overtones. from the leading edge onward, the meter catches balanced-parity, faint rumble, and present thump; downstream, the residue writes present boom and strong boxiness. the profile opens with present honk, present quack, and strong clang; once recirculated through the line, it lands at present punch and strong bite. the first pass reports present twang, strong ring, and strong tang; deeper in the frame, the contour settles into strong edge and strong chime. diagnostic playback marks strong zing, strong crackle, and strong sibilance; the follow-through corridor then stabilizes around present fizz and present sheen. from the leading edge onward, the meter catches faint sparkle, faint glint, and faint air; downstream, the residue writes faint vapor and faint ether. the profile opens with mellow and silky; once recirculated through the line, it lands at mellow and silky. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_98/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_98/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_98/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_98/looped.json",
+                                              "plot_image":  "data/samples/sample_98/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_99",
+                                              "title":  "Sample 99",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "in spectral cross-section, the chamber resolves mid-power, punchy, and high-oscillation; the reflected layer reappears as snap-onset and aggressive. initial pressure exposes evenly-distributed, clipped, and brilliant; after propagation through the core, the return field carries semi-tonal and mid-ceiling. at entry the envelope carries churning, gentle-peak, and semi-diffuse; through sustain and release, the trace returns rippled and lumen re heart. the onset lane shows limpid, finely-tuned, and recessed-fundamental; the mid-body drift and tail channel answer with present-body and rich-overtones. in spectral cross-section, the chamber resolves odd-leaning, faint rumble, and present thump; the reflected layer reappears as present boom and strong boxiness. initial pressure exposes present honk, present quack, and strong clang; after propagation through the core, the return field carries present punch and present bite. at entry the envelope carries strong twang, strong ring, and strong tang; through sustain and release, the trace returns strong edge and present chime. the onset lane shows present zing, present crackle, and present sibilance; the mid-body drift and tail channel answer with present fizz and present sheen. in spectral cross-section, the chamber resolves present sparkle, present glint, and strong air; the reflected layer reappears as strong vapor and present ether. initial pressure exposes keen and sleek; after propagation through the core, the return field carries keen and sleek.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_99/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_99/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_99/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_99/looped.json",
+                                              "plot_image":  "data/samples/sample_99/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_100",
+                                              "title":  "Sample 100",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the profile opens with mid-power, punchy, and mid-oscillation; once recirculated through the line, it lands at snap-onset and explosive. the first pass reports evenly-distributed, clipped, and brilliant; deeper in the frame, the contour settles into semi-tonal and mid-ceiling. diagnostic playback marks drifting, flat-topped, and semi-diffuse; the follow-through corridor then stabilizes around rippled and lumen re heart. from the leading edge onward, the meter catches limpid, finely-tuned, and recessed-fundamental; downstream, the residue writes present-body and rich-overtones. the profile opens with odd-leaning, faint rumble, and faint thump; once recirculated through the line, it lands at present boom and strong boxiness. the first pass reports present honk, present quack, and strong clang; deeper in the frame, the contour settles into present punch and present bite. diagnostic playback marks strong twang, present ring, and present tang; the follow-through corridor then stabilizes around strong edge and present chime. from the leading edge onward, the meter catches present zing, present crackle, and present sibilance; downstream, the residue writes present fizz and present sheen. the profile opens with present sparkle, present glint, and present air; once recirculated through the line, it lands at present vapor and strong ether. the first pass reports keen and sleek; deeper in the frame, the contour settles into keen and sleek. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_100/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_100/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_100/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_100/looped.json",
+                                              "plot_image":  "data/samples/sample_100/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_101",
+                                              "title":  "Sample 101",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "initial pressure exposes mid-power, punchy, and high-oscillation; after propagation through the core, the return field carries snap-onset and explosive. at entry the envelope carries evenly-distributed, clipped, and brilliant; through sustain and release, the trace returns semi-tonal and mid-ceiling. the onset lane shows surging, flat-topped, and semi-diffuse; the mid-body drift and tail channel answer with serrated and lumen re heart. in spectral cross-section, the chamber resolves limpid, finely-tuned, and balanced-fundamental; the reflected layer reappears as lush-body and sparse-overtones. initial pressure exposes odd-leaning, present rumble, and present thump; after propagation through the core, the return field carries present boom and dominant boxiness. at entry the envelope carries strong honk, present quack, and strong clang; through sustain and release, the trace returns present punch and present bite. the onset lane shows strong twang, strong ring, and strong tang; the mid-body drift and tail channel answer with strong edge and strong chime. in spectral cross-section, the chamber resolves present zing, present crackle, and present sibilance; the reflected layer reappears as present fizz and present sheen. initial pressure exposes present sparkle, strong glint, and strong air; after propagation through the core, the return field carries strong vapor and strong ether. at entry the envelope carries keen and silky; through sustain and release, the trace returns keen and silky.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_101/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_101/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_101/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_101/looped.json",
+                                              "plot_image":  "data/samples/sample_101/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_102",
+                                              "title":  "Sample 102",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the first pass reports mid-power, rounded, and high-oscillation; deeper in the frame, the contour settles into snap-onset and aggressive. diagnostic playback marks evenly-distributed, clipped, and brilliant; the follow-through corridor then stabilizes around semi-tonal and mid-ceiling. from the leading edge onward, the meter catches surging, flat-topped, and semi-diffuse; downstream, the residue writes rippled and lumen fi heart. the profile opens with limpid, slightly-detuned, and balanced-fundamental; once recirculated through the line, it lands at lush-body and sparse-overtones. the first pass reports balanced-parity, present rumble, and present thump; deeper in the frame, the contour settles into present boom and present boxiness. diagnostic playback marks dominant honk, present quack, and present clang; the follow-through corridor then stabilizes around dominant punch and strong bite. from the leading edge onward, the meter catches present twang, strong ring, and present tang; downstream, the residue writes present edge and present chime. the profile opens with present zing, present crackle, and present sibilance; once recirculated through the line, it lands at present fizz and present sheen. the first pass reports present sparkle, present glint, and present air; deeper in the frame, the contour settles into present vapor and present ether. diagnostic playback marks mellow and textured; the follow-through corridor then stabilizes around mellow and textured. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_102/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_102/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_102/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_102/looped.json",
+                                              "plot_image":  "data/samples/sample_102/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_103",
+                                              "title":  "Sample 103",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "at entry the envelope carries mid-power, rounded, and high-oscillation; through sustain and release, the trace returns swift-onset and aggressive. the onset lane shows evenly-distributed, clipped, and brilliant; the mid-body drift and tail channel answer with semi-tonal and mid-ceiling. in spectral cross-section, the chamber resolves surging, flat-topped, and semi-diffuse; the reflected layer reappears as rippled and lumen fi heart. initial pressure exposes limpid, finely-tuned, and recessed-fundamental; after propagation through the core, the return field carries lush-body and moderate-overtones. at entry the envelope carries odd-leaning, present rumble, and present thump; through sustain and release, the trace returns present boom and present boxiness. the onset lane shows strong honk, present quack, and present clang; the mid-body drift and tail channel answer with strong punch and strong bite. in spectral cross-section, the chamber resolves present twang, strong ring, and present tang; the reflected layer reappears as dominant edge and strong chime. initial pressure exposes strong zing, strong crackle, and strong sibilance; after propagation through the core, the return field carries present fizz and present sheen. at entry the envelope carries present sparkle, present glint, and present air; through sustain and release, the trace returns present vapor and present ether. the onset lane shows mellow and textured; the mid-body drift and tail channel answer with mellow and textured.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_103/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_103/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_103/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_103/looped.json",
+                                              "plot_image":  "data/samples/sample_103/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_104",
+                                              "title":  "Sample 104",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "diagnostic playback marks mid-power, rounded, and high-oscillation; the follow-through corridor then stabilizes around moderate-onset and measured. from the leading edge onward, the meter catches evenly-distributed, clipped, and brilliant; downstream, the residue writes semi-tonal and mid-ceiling. the profile opens with surging, gentle-peak, and diffuse; once recirculated through the line, it lands at rippled and unpitched. the first pass reports faint rumble, present thump, and present boom; deeper in the frame, the contour settles into present boxiness and strong honk. diagnostic playback marks present quack, present clang, and present punch; the follow-through corridor then stabilizes around strong bite and present twang. from the leading edge onward, the meter catches strong ring, present tang, and strong edge; downstream, the residue writes strong chime and strong zing. the profile opens with strong crackle, present sibilance, and strong fizz; once recirculated through the line, it lands at strong sheen and strong sparkle. the first pass reports strong glint, present air, and present vapor; deeper in the frame, the contour settles into present ether, keen, and textured. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_104/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_104/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_104/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_104/looped.json",
+                                              "plot_image":  "data/samples/sample_104/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_105",
+                                              "title":  "Sample 105",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "the onset lane shows mid-power, rounded, and high-oscillation; the mid-body drift and tail channel answer with swift-onset and measured. in spectral cross-section, the chamber resolves evenly-distributed, clipped, and brilliant; the reflected layer reappears as semi-tonal and mid-ceiling. initial pressure exposes surging, gentle-peak, and diffuse; after propagation through the core, the return field carries rippled and unpitched. at entry the envelope carries present rumble, present thump, and present boom; through sustain and release, the trace returns present boxiness and strong honk. the onset lane shows strong quack, present clang, and present punch; the mid-body drift and tail channel answer with strong bite and present twang. in spectral cross-section, the chamber resolves strong ring, present tang, and strong edge; the reflected layer reappears as present chime and strong zing. initial pressure exposes strong crackle, strong sibilance, and strong fizz; after propagation through the core, the return field carries strong sheen and present sparkle. at entry the envelope carries strong glint, strong air, and present vapor; through sustain and release, the trace returns strong ether, keen, and gritty. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_105/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_105/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_105/description.txt",
+                                              "looped":  false,
+                                              "loop_marker_path":  "data/samples/sample_105/looped.json",
+                                              "plot_image":  "data/samples/sample_105/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          },
+                                          {
+                                              "id":  "sample_106",
+                                              "title":  "Sample 106",
+                                              "subtitle":  "",
+                                              "tags":  [
+                                                           "sample"
+                                                       ],
+                                              "lexical_description":  "from the leading edge onward, the meter catches mid-power, rounded, and high-oscillation; downstream, the residue writes creeping-onset and feathered. the profile opens with evenly-distributed, short-decay, and brilliant; once recirculated through the line, it lands at near-tonal and high-ceiling. the first pass reports frozen, flat-topped, and semi-diffuse; deeper in the frame, the contour settles into comb-like and crystal di shadow. diagnostic playback marks limpid, locked, and balanced-fundamental; the follow-through corridor then stabilizes around thin-body and moderate-overtones. from the leading edge onward, the meter catches odd-heavy, faint rumble, and faint thump; downstream, the residue writes faint boom and faint boxiness. the profile opens with faint honk, faint quack, and present clang; once recirculated through the line, it lands at present punch and faint bite. the first pass reports present twang, dominant ring, and strong tang; deeper in the frame, the contour settles into strong edge and strong chime. diagnostic playback marks present zing, dominant crackle, and present sibilance; the follow-through corridor then stabilizes around strong fizz and present sheen. from the leading edge onward, the meter catches strong sparkle, strong glint, and strong air; downstream, the residue writes strong vapor and strong ether. the profile opens with keen and sleek; once recirculated through the line, it lands at keen and sleek. the line keeps a traceable relation between onset energy, body coloration, and release behavior, so the audible structure remains inspectable rather than opaque.",
+                                              "tracks":  [
+                                                             {
+                                                                 "label":  "Original",
+                                                                 "file":  "data/samples/sample_106/original.mp3"
+                                                             },
+                                                             {
+                                                                 "label":  "LAC Reconstruction",
+                                                                 "file":  "data/samples/sample_106/reconstruction.mp3"
+                                                             }
+                                                         ],
+                                              "description_file_path":  "data/samples/sample_106/description.txt",
+                                              "looped":  true,
+                                              "loop_marker_path":  "data/samples/sample_106/looped.json",
+                                              "plot_image":  "data/samples/sample_106/waveform.png",
+                                              "plot_label":  "Waveform plot"
+                                          }
+                                      ]
+                     }
+                 ]
+};

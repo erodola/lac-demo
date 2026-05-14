@@ -11,6 +11,11 @@ const dom = {
   root: document.getElementById("content-root"),
   updatedAt: document.getElementById("updated-at"),
   brandTitle: document.querySelector(".brand-title"),
+  citeButton: document.getElementById("cite-button"),
+  citationPopup: document.getElementById("citation-popup"),
+  citationBibtex: document.getElementById("citation-bibtex"),
+  copyCitationButton: document.getElementById("copy-citation-button"),
+  citationCopyStatus: document.getElementById("citation-copy-status"),
 };
 
 let manifestSourceUrl = null;
@@ -58,6 +63,84 @@ function renderError(message) {
   const box = make("div", "error-box");
   box.textContent = message;
   dom.root.replaceChildren(box);
+}
+
+function setCitationPopupOpen(isOpen) {
+  if (!dom.citeButton || !dom.citationPopup) {
+    return;
+  }
+
+  dom.citationPopup.hidden = !isOpen;
+  dom.citeButton.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  if (!isOpen && dom.citationCopyStatus) {
+    dom.citationCopyStatus.textContent = "";
+  }
+}
+
+function fallbackCopyText(text) {
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.top = "-1000px";
+  document.body.appendChild(textarea);
+  textarea.select();
+
+  let didCopy = false;
+  try {
+    didCopy = document.execCommand("copy");
+  } finally {
+    textarea.remove();
+  }
+  return didCopy;
+}
+
+async function copyText(text) {
+  if (navigator.clipboard && window.isSecureContext) {
+    await navigator.clipboard.writeText(text);
+    return true;
+  }
+  return fallbackCopyText(text);
+}
+
+function initCitationControls() {
+  if (!dom.citeButton || !dom.citationPopup || !dom.copyCitationButton || !dom.citationBibtex) {
+    return;
+  }
+
+  dom.citeButton.addEventListener("click", () => {
+    setCitationPopupOpen(dom.citationPopup.hidden);
+  });
+
+  dom.copyCitationButton.addEventListener("click", async () => {
+    try {
+      const didCopy = await copyText(dom.citationBibtex.textContent.trim());
+      if (dom.citationCopyStatus) {
+        dom.citationCopyStatus.textContent = didCopy ? "Copied." : "Select and copy the citation.";
+      }
+    } catch {
+      if (dom.citationCopyStatus) {
+        dom.citationCopyStatus.textContent = "Select and copy the citation.";
+      }
+    }
+  });
+
+  document.addEventListener("click", (event) => {
+    if (dom.citationPopup.hidden) {
+      return;
+    }
+    const target = event.target;
+    if (dom.citationPopup.contains(target) || dom.citeButton.contains(target)) {
+      return;
+    }
+    setCitationPopupOpen(false);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      setCitationPopupOpen(false);
+    }
+  });
 }
 
 function renderNav(sections) {
@@ -484,4 +567,5 @@ async function init() {
   }
 }
 
+initCitationControls();
 init();

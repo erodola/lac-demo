@@ -8,7 +8,7 @@
       content="Listening examples for Communicating Sound Through Natural Language (Lexical Acoustic Coding)."
     />
     <title>LAC Demo Page</title>
-    <link rel="stylesheet" href="styles.css?v=20260507a" />
+    <link rel="stylesheet" href="styles.css?v=20260514a" />
   </head>
   <body>
     <header class="site-header">
@@ -70,7 +70,12 @@
             </p>
           </div>
           <div class="hero-actions" aria-label="Paper actions">
-            <button class="hero-link action-button" type="button" title="Link coming soon">
+            <a
+              class="hero-link action-button"
+              href="https://arxiv.org/pdf/2605.08750"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 class="action-icon"
                 viewBox="0 0 24 24"
@@ -89,24 +94,75 @@
                 <path d="M16 17H8" />
               </svg>
               <span>Read Paper</span>
-            </button>
-            <button class="ghost-button action-button" type="button" title="Link coming soon">
-              <svg
-                class="action-icon"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-                focusable="false"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+            </a>
+            <div class="citation-action">
+              <button
+                id="cite-button"
+                class="ghost-button action-button"
+                type="button"
+                aria-expanded="false"
+                aria-controls="citation-popup"
               >
-                <path d="M3 21c3 0 7-1 7-8V5H5v8h5" />
-                <path d="M14 21c3 0 7-1 7-8V5h-5v8h5" />
-              </svg>
-              <span>Cite</span>
-            </button>
+                <svg
+                  class="action-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M3 21c3 0 7-1 7-8V5H5v8h5" />
+                  <path d="M14 21c3 0 7-1 7-8V5h-5v8h5" />
+                </svg>
+                <span>Cite</span>
+              </button>
+              <div
+                id="citation-popup"
+                class="citation-popup"
+                role="dialog"
+                aria-labelledby="citation-title"
+                hidden
+              >
+                <div class="citation-popup-head">
+                  <h3 id="citation-title">BibTeX</h3>
+                  <button
+                    id="copy-citation-button"
+                    class="copy-citation-button"
+                    type="button"
+                    aria-label="Copy BibTeX citation"
+                    title="Copy BibTeX"
+                  >
+                    <svg
+                      class="copy-icon"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                      focusable="false"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                    </svg>
+                  </button>
+                </div>
+                <pre class="citation-code"><code id="citation-bibtex">@misc{rossi2026communicatingsoundnaturallanguage,
+      title={Communicating Sound Through Natural Language}, 
+      author={Emanuele Rossi and Emanuele Rodol&agrave;},
+      year={2026},
+      eprint={2605.08750},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.08750}, 
+}</code></pre>
+                <p id="citation-copy-status" class="citation-copy-status" aria-live="polite"></p>
+              </div>
+            </div>
           </div>
           <div class="hero-abstract hero-meta" aria-label="Demo summary">
             <h3 class="hero-abstract-title">This demo</h3>
@@ -148,6 +204,6 @@
       </div>
     </noscript>
 
-    <script src="app.js?v=20260507a" defer></script>
+    <script src="app.js?v=20260514a" defer></script>
   </body>
 </html>
